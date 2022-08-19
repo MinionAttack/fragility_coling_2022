@@ -1,0 +1,11 @@
+dataclasses==0.8
+future==0.18.2
+gensim==4.1.2
+numpy==1.19.5
+overrides==6.1.0
+scipy==1.5.4
+six==1.16.0
+smart-open==5.2.1
+tarjan==0.2.3.2
+torch==1.5.1
+typing-utils==0.1.0

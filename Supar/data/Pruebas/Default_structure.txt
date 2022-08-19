@@ -1,0 +1,355 @@
+.
+├── ControlSet
+│   ├── Greek-GDT
+│   │   ├── el_gdt-ud-dev.conll
+│   │   ├── el_gdt-ud-test.conll
+│   │   ├── el_gdt-ud-test_udpipe.conll
+│   │   └── el_gdt-ud-train.conll
+│   ├── Hindi-HDTB
+│   │   ├── hi_hdtb-ud-dev.conll
+│   │   ├── hi_hdtb-ud-test.conll
+│   │   ├── hi_hdtb-ud-test_udpipe.conll
+│   │   └── hi_hdtb-ud-train.conll
+│   ├── Polish-LFG
+│   │   ├── pl_lfg-ud-dev.conll
+│   │   ├── pl_lfg-ud-test.conll
+│   │   ├── pl_lfg-ud-test_udpipe.conll
+│   │   └── pl_lfg-ud-train.conll
+│   ├── Slovak-SNK
+│   │   ├── sk_snk-ud-dev.conll
+│   │   ├── sk_snk-ud-test.conll
+│   │   ├── sk_snk-ud-test_udpipe.conll
+│   │   └── sk_snk-ud-train.conll
+│   ├── Slovenian-SSJ
+│   │   ├── sl_ssj-ud-dev.conll
+│   │   ├── sl_ssj-ud-test.conll
+│   │   ├── sl_ssj-ud-test_udpipe.conll
+│   │   └── sl_ssj-ud-train.conll
+│   └── Swedish-Talbanken
+│       ├── sv_talbanken-ud-dev.conll
+│       ├── sv_talbanken-ud-test.conll
+│       ├── sv_talbanken-ud-test_udpipe.conll
+│       └── sv_talbanken-ud-train.conll
+├── Embeddings
+│   ├── Ancient_Greek
+│   │   └── grc.vectors
+│   ├── Arabic
+│   │   └── cc.ar.300.vec
+│   ├── Basque
+│   │   └── cc.eu.300.vec
+│   ├── Belarusian
+│   │   └── cc.be.300.vec
+│   ├── Bulgarian
+│   │   └── cc.bg.300.vec
+│   ├── Catalan
+│   │   └── cc.ca.300.vec
+│   ├── Chinese
+│   │   └── cc.zh.300.vec
+│   ├── Coptic
+│   │   └── cop.vectors
+│   ├── Czech
+│   │   └── cc.cs.300.vec
+│   ├── Dutch
+│   │   └── cc.nl.300.vec
+│   ├── English
+│   │   └── cc.en.300.vec
+│   ├── Finnish
+│   │   └── cc.fi.300.vec
+│   ├── French
+│   │   └── cc.fr.300.vec
+│   ├── Galician
+│   │   └── cc.gl.300.vec
+│   ├── German
+│   │   └── cc.de.300.vec
+│   ├── Greek
+│   │   └── cc.el.300.vec
+│   ├── Hebrew
+│   │   └── cc.he.300.vec
+│   ├── Hindi
+│   │   └── cc.hi.300.vec
+│   ├── Indonesian
+│   │   └── cc.id.300.vec
+│   ├── Italian
+│   │   └── cc.it.300.vec
+│   ├── Japanese
+│   │   └── cc.ja.300.vec
+│   ├── Kazakh
+│   │   └── cc.kk.300.vec
+│   ├── Korean
+│   │   └── cc.ko.300.vec
+│   ├── Lithuanian
+│   │   └── cc.lt.300.vec
+│   ├── Marathi
+│   │   └── cc.mr.300.vec
+│   ├── Norwegian-Bokmaal
+│   │   └── cc.no.300.vec
+│   ├── Norwegian-Nynorsk
+│   │   └── cc.nn.300.vec
+│   ├── Old_Church_Slavonic
+│   │   └── cu.vectors
+│   ├── Old_Russian
+│   │   └── cc.orv.300.vec
+│   ├── Polish
+│   │   └── cc.pl.300.vec
+│   ├── Romanian
+│   │   └── cc.ro.300.vec
+│   ├── Russian
+│   │   └── cc.ru.300.vec
+│   ├── Sanskrit
+│   │   └── cc.sa.300.vec
+│   ├── Slovak
+│   │   └── cc.sk.300.vec
+│   ├── Slovenian
+│   │   └── cc.sl.300.vec
+│   ├── Spanish
+│   │   └── cc.es.300.vec
+│   ├── Swedish
+│   │   └── cc.sv.300.vec
+│   ├── Tamil
+│   │   └── cc.ta.300.vec
+│   ├── Turkish
+│   │   └── cc.tr.300.vec
+│   ├── Uyghur
+│   │   └── cc.ug.300.vec
+│   ├── Welsh
+│   │   └── cc.cy.300.vec
+│   └── Wolof
+│       └── wo.vectors
+├── Kulmiez_SmithEtAl
+│   ├── Arabic-PADT
+│   │   ├── ar_padt-ud-dev.conll
+│   │   ├── ar_padt-ud-test.conll
+│   │   ├── ar_padt-ud-test_udpipe.conll
+│   │   └── ar_padt-ud-train.conll
+│   ├── Basque-BDT
+│   │   ├── eu_bdt-ud-dev.conll
+│   │   ├── eu_bdt-ud-test.conll
+│   │   ├── eu_bdt-ud-test_udpipe.conll
+│   │   └── eu_bdt-ud-train.conll
+│   ├── Japanese-GSD
+│   │   ├── ja_gsd-ud-dev.conll
+│   │   ├── ja_gsd-ud-test.conll
+│   │   ├── ja_gsd-ud-test_udpipe.conll
+│   │   └── ja_gsd-ud-train.conll
+│   ├── Korean
+│   │   ├── GSD
+│   │   │   ├── ko_gsd-ud-dev.conll
+│   │   │   ├── ko_gsd-ud-test.conll
+│   │   │   ├── ko_gsd-ud-test_udpipe.conll
+│   │   │   └── ko_gsd-ud-train.conll
+│   │   └── Kaist
+│   │       ├── ko_kaist-ud-dev.conll
+│   │       ├── ko_kaist-ud-test.conll
+│   │       ├── ko_kaist-ud-test_udpipe.conll
+│   │       └── ko_kaist-ud-train.conll
+│   └── Turkish-IMST
+│       ├── tr_imst-ud-dev.conll
+│       ├── tr_imst-ud-test.conll
+│       ├── tr_imst-ud-test_udpipe.conll
+│       └── tr_imst-ud-train.conll
+├── LowResources
+│   ├── Belarusian-HSE
+│   │   ├── be_hse-ud-dev.conll
+│   │   ├── be_hse-ud-test.conll
+│   │   ├── be_hse-ud-test_udpipe.conll
+│   │   └── be_hse-ud-train.conll
+│   ├── Galician-TreeGal
+│   │   ├── gl_treegal-ud-dev.conll
+│   │   ├── gl_treegal-ud-test.conll
+│   │   ├── gl_treegal-ud-test_udpipe.conll
+│   │   └── gl_treegal-ud-train.conll
+│   ├── Lithuanian-HSE
+│   │   ├── lt_hse-ud-dev.conll
+│   │   ├── lt_hse-ud-test.conll
+│   │   ├── lt_hse-ud-test_udpipe.conll
+│   │   └── lt_hse-ud-train.conll
+│   ├── Marathi-UFAL
+│   │   ├── mr_ufal-ud-dev.conll
+│   │   ├── mr_ufal-ud-test.conll
+│   │   ├── mr_ufal-ud-test_udpipe.conll
+│   │   └── mr_ufal-ud-train.conll
+│   ├── Old_Russian-RNC
+│   │   ├── orv_rnc-ud-dev.conll
+│   │   ├── orv_rnc-ud-test.conll
+│   │   ├── orv_rnc-ud-test-light.conll
+│   │   └── orv_rnc-ud-train.conll
+│   ├── Tamil-TTB
+│   │   ├── ta_ttb-ud-dev.conll
+│   │   ├── ta_ttb-ud-test.conll
+│   │   ├── ta_ttb-ud-test_udpipe.conll
+│   │   └── ta_ttb-ud-train.conll
+│   └── Welsh-CCG
+│       ├── cy_ccg-ud-dev.conll
+│       ├── cy_ccg-ud-test.conll
+│       └── cy_ccg-ud-train.conll
+├── SchluterEtAl
+│   ├── Coptic-Scriptorium
+│   │   ├── cop_scriptorium-ud-dev.conll
+│   │   ├── cop_scriptorium-ud-test.conll
+│   │   ├── cop_scriptorium-ud-test_udpipe.conll
+│   │   └── cop_scriptorium-ud-train.conll
+│   ├── Indonesian-GSD
+│   │   ├── id_gsd-ud-dev.conll
+│   │   ├── id_gsd-ud-test.conll
+│   │   ├── id_gsd-ud-test_udpipe.conll
+│   │   └── id_gsd-ud-train.conll
+│   ├── Old_Church_Slavonic-PROIEL
+│   │   ├── cu_proiel-ud-dev.conll
+│   │   ├── cu_proiel-ud-test.conll
+│   │   ├── cu_proiel-ud-test_udpipe.conll
+│   │   └── cu_proiel-ud-train.conll
+│   ├── Polish-PDB
+│   │   ├── pl_pdb-ud-dev.conll
+│   │   ├── pl_pdb-ud-test.conll
+│   │   ├── pl_pdb-ud-test_udpipe.conll
+│   │   └── pl_pdb-ud-train.conll
+│   └── Sanskrit-Vedic
+│       ├── sa_vedic-ud-dev.conll
+│       ├── sa_vedic-ud-test.conll
+│       └── sa_vedic-ud-train.conll
+└── UD
+    ├── Ancient_Greek
+    │   ├── Perseus
+    │   │   ├── grc_perseus-ud-dev.conll
+    │   │   ├── grc_perseus-ud-test.conll
+    │   │   ├── grc_perseus-ud-test_udpipe.conll
+    │   │   └── grc_perseus-ud-train.conll
+    │   └── PROIEL
+    │       ├── grc_proiel-ud-dev.conll
+    │       ├── grc_proiel-ud-test.conll
+    │       ├── grc_proiel-ud-test_udpipe.conll
+    │       └── grc_proiel-ud-train.conll
+    ├── Bulgarian-BTB
+    │   ├── bg_btb-ud-dev.conll
+    │   ├── bg_btb-ud-test.conll
+    │   ├── bg_btb-ud-test_udpipe.conll
+    │   └── bg_btb-ud-train.conll
+    ├── Catalan-AnCora
+    │   ├── ca_ancora-ud-dev.conll
+    │   ├── ca_ancora-ud-test.conll
+    │   ├── ca_ancora-ud-test_udpipe.conll
+    │   └── ca_ancora-ud-train.conll
+    ├── Chinese-GSD
+    │   ├── zh_gsd-ud-dev.conll
+    │   ├── zh_gsd-ud-test.conll
+    │   ├── zh_gsd-ud-test_udpipe.conll
+    │   └── zh_gsd-ud-train.conll
+    ├── Czech
+    │   ├── CAC
+    │   │   ├── cs_cac-ud-dev.conll
+    │   │   ├── cs_cac-ud-test.conll
+    │   │   ├── cs_cac-ud-test_udpipe.conll
+    │   │   └── cs_cac-ud-train.conll
+    │   ├── CLTT
+    │   │   ├── cs_cltt-ud-dev.conll
+    │   │   ├── cs_cltt-ud-test.conll
+    │   │   ├── cs_cltt-ud-test_udpipe.conll
+    │   │   └── cs_cltt-ud-train.conll
+    │   ├── FicTree
+    │   │   ├── cs_fictree-ud-dev.conll
+    │   │   ├── cs_fictree-ud-test.conll
+    │   │   ├── cs_fictree-ud-test_udpipe.conll
+    │   │   └── cs_fictree-ud-train.conll
+    │   └── PDT
+    │       ├── cs_pdt-ud-dev.conll
+    │       ├── cs_pdt-ud-test.conll
+    │       ├── cs_pdt-ud-test_udpipe.conll
+    │       └── cs_pdt-ud-train.conll
+    ├── Dutch
+    │   ├── Alpino
+    │   │   ├── nl_alpino-ud-dev.conll
+    │   │   ├── nl_alpino-ud-test.conll
+    │   │   ├── nl_alpino-ud-test_udpipe.conll
+    │   │   └── nl_alpino-ud-train.conll
+    │   └── LassySmall
+    │       ├── nl_lassysmall-ud-dev.conll
+    │       ├── nl_lassysmall-ud-test.conll
+    │       ├── nl_lassysmall-ud-test_udpipe.conll
+    │       └── nl_lassysmall-ud-train.conll
+    ├── English-EWT
+    │   ├── en_ewt-ud-dev.conll
+    │   ├── en_ewt-ud-test.conll
+    │   ├── en_ewt-ud-test_udpipe.conll
+    │   └── en_ewt-ud-train.conll
+    ├── Finnish-TDT
+    │   ├── fi_tdt-ud-dev.conll
+    │   ├── fi_tdt-ud-test.conll
+    │   ├── fi_tdt-ud-test_udpipe.conll
+    │   └── fi_tdt-ud-train.conll
+    ├── French-GSD
+    │   ├── fr_gsd-ud-dev.conll
+    │   ├── fr_gsd-ud-test.conll
+    │   ├── fr_gsd-ud-test_udpipe.conll
+    │   └── fr_gsd-ud-train.conll
+    ├── German-GSD
+    │   ├── de_gsd-ud-dev.conll
+    │   ├── de_gsd-ud-test.conll
+    │   ├── de_gsd-ud-test_udpipe.conll
+    │   └── de_gsd-ud-train.conll
+    ├── Hebrew-HTB
+    │   ├── he_htb-ud-dev.conll
+    │   ├── he_htb-ud-test.conll
+    │   ├── he_htb-ud-test_udpipe.conll
+    │   └── he_htb-ud-train.conll
+    ├── Italian-ISDT
+    │   ├── it_isdt-ud-dev.conll
+    │   ├── it_isdt-ud-test.conll
+    │   ├── it_isdt-ud-test_udpipe.conll
+    │   └── it_isdt-ud-train.conll
+    ├── Kazakh-KTB
+    │   ├── kk_ktb-ud-dev.conll
+    │   ├── kk_ktb-ud-test.conll
+    │   └── kk_ktb-ud-train.conll
+    ├── Norwegian
+    │   ├── Bokmaal
+    │   │   ├── no_bokmaal-ud-dev.conll
+    │   │   ├── no_bokmaal-ud-test.conll
+    │   │   ├── no_bokmaal-ud-test_udpipe.conll
+    │   │   └── no_bokmaal-ud-train.conll
+    │   └── Nynorsk
+    │       ├── no_nynorsk-ud-dev.conll
+    │       ├── no_nynorsk-ud-test.conll
+    │       ├── no_nynorsk-ud-test_udpipe.conll
+    │       └── no_nynorsk-ud-train.conll
+    ├── Romanian-RRT
+    │   ├── ro_rrt-ud-dev.conll
+    │   ├── ro_rrt-ud-test.conll
+    │   ├── ro_rrt-ud-test_udpipe.conll
+    │   └── ro_rrt-ud-train.conll
+    ├── Russian
+    │   ├── GSD
+    │   │   ├── ru_gsd-ud-dev.conll
+    │   │   ├── ru_gsd-ud-test.conll
+    │   │   ├── ru_gsd-ud-test_udpipe.conll
+    │   │   └── ru_gsd-ud-train.conll
+    │   └── SynTagRus
+    │       ├── ru_syntagrus-ud-dev.conll
+    │       ├── ru_syntagrus-ud-test.conll
+    │       ├── ru_syntagrus-ud-test_udpipe.conll
+    │       └── ru_syntagrus-ud-train.conll
+    ├── Spanish
+    │   ├── AnCora
+    │   │   ├── es_ancora-ud-dev.conll
+    │   │   ├── es_ancora-ud-test.conll
+    │   │   ├── es_ancora-ud-test_udpipe.conll
+    │   │   └── es_ancora-ud-train.conll
+    │   └── GSD
+    │       ├── es_gsd-ud-dev.conll
+    │       ├── es_gsd-ud-test.conll
+    │       ├── es_gsd-ud-test_udpipe.conll
+    │       └── es_gsd-ud-train.conll
+    ├── Tamil-TTB
+    │   ├── ta_ttb-ud-dev.conll
+    │   ├── ta_ttb-ud-test.conll
+    │   ├── ta_ttb-ud-test_udpipe.conll
+    │   └── ta_ttb-ud-train.conll
+    ├── Uyghur-UDT
+    │   ├── ug_udt-ud-dev.conll
+    │   ├── ug_udt-ud-test.conll
+    │   ├── ug_udt-ud-test_udpipe.conll
+    │   └── ug_udt-ud-train.conll
+    └── Wolof-WTB
+        ├── wo_wtb-ud-dev.conll
+        ├── wo_wtb-ud-test.conll
+        ├── wo_wtb-ud-test_udpipe.conll
+        └── wo_wtb-ud-train.conll

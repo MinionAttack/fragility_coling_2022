@@ -1,0 +1,1121 @@
+.
+├── Ancient_Greek
+│   ├── Perseus
+│   │   ├── Iteracion_1
+│   │   │   ├── grc_perseus-predicted-test.conll
+│   │   │   ├── grc_perseus-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── grc_perseus-predicted-test.conll
+│   │   │   ├── grc_perseus-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── grc_perseus-predicted-test.conll
+│   │       ├── grc_perseus-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   └── PROIEL
+│       ├── Iteracion_1
+│       │   ├── grc_proiel-predicted-test.conll
+│       │   ├── grc_proiel-predicted_udpipe-test.conll
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.evaluate.log
+│       │   ├── Iteracion_1.predict.log
+│       │   └── Iteracion_1.train.log
+│       ├── Iteracion_2
+│       │   ├── grc_proiel-predicted-test.conll
+│       │   ├── grc_proiel-predicted_udpipe-test.conll
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.evaluate.log
+│       │   ├── Iteracion_2.predict.log
+│       │   └── Iteracion_2.train.log
+│       └── Iteracion_3
+│           ├── grc_proiel-predicted-test.conll
+│           ├── grc_proiel-predicted_udpipe-test.conll
+│           ├── Iteracion_3
+│           ├── Iteracion_3.evaluate.log
+│           ├── Iteracion_3.predict.log
+│           └── Iteracion_3.train.log
+├── Bulgarian-BTB
+│   ├── Iteracion_1
+│   │   ├── bg_btb-predicted-test.conll
+│   │   ├── bg_btb-predicted_udpipe-test.conll
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   └── Iteracion_1.train.log
+│   ├── Iteracion_2
+│   │   ├── bg_btb-predicted-test.conll
+│   │   ├── bg_btb-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   └── Iteracion_2.train.log
+│   └── Iteracion_3
+│       ├── bg_btb-predicted-test.conll
+│       ├── bg_btb-predicted_udpipe-test.conll
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       └── Iteracion_3.train.log
+├── Catalan-AnCora
+│   ├── Iteracion_1
+│   │   ├── ca_ancora-predicted-test.conll
+│   │   ├── ca_ancora-predicted_udpipe-test.conll
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   └── Iteracion_1.train.log
+│   ├── Iteracion_2
+│   │   ├── ca_ancora-predicted-test.conll
+│   │   ├── ca_ancora-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   └── Iteracion_2.train.log
+│   └── Iteracion_3
+│       ├── ca_ancora-predicted-test.conll
+│       ├── ca_ancora-predicted_udpipe-test.conll
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       └── Iteracion_3.train.log
+├── Chinese-GSD
+│   ├── Iteracion_1
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   ├── Iteracion_1.train.log
+│   │   ├── zh_gsd-predicted-test.conll
+│   │   └── zh_gsd-predicted_udpipe-test.conll
+│   ├── Iteracion_2
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   ├── Iteracion_2.train.log
+│   │   ├── zh_gsd-predicted-test.conll
+│   │   └── zh_gsd-predicted_udpipe-test.conll
+│   └── Iteracion_3
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       ├── Iteracion_3.train.log
+│       ├── zh_gsd-predicted-test.conll
+│       └── zh_gsd-predicted_udpipe-test.conll
+├── ControlSet
+│   ├── Greek-GDT
+│   │   ├── Iteracion_1
+│   │   │   ├── el_gdt-predicted-test.conll
+│   │   │   ├── el_gdt-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── el_gdt-predicted-test.conll
+│   │   │   ├── el_gdt-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── el_gdt-predicted-test.conll
+│   │       ├── el_gdt-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Hindi-HDTB
+│   │   ├── Iteracion_1
+│   │   │   ├── hi_hdtb-predicted-test.conll
+│   │   │   ├── hi_hdtb-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── hi_hdtb-predicted-test.conll
+│   │   │   ├── hi_hdtb-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── hi_hdtb-predicted-test.conll
+│   │       ├── hi_hdtb-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Polish-LFG
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── pl_lfg-predicted-test.conll
+│   │   │   └── pl_lfg-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── pl_lfg-predicted-test.conll
+│   │   │   └── pl_lfg-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── pl_lfg-predicted-test.conll
+│   │       └── pl_lfg-predicted_udpipe-test.conll
+│   ├── Slovak-SNK
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── sk_snk-predicted-test.conll
+│   │   │   └── sk_snk-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── sk_snk-predicted-test.conll
+│   │   │   └── sk_snk-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── sk_snk-predicted-test.conll
+│   │       └── sk_snk-predicted_udpipe-test.conll
+│   ├── Slovenian-SSJ
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── sl_ssj-predicted-test.conll
+│   │   │   └── sl_ssj-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── sl_ssj-predicted-test.conll
+│   │   │   └── sl_ssj-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── sl_ssj-predicted-test.conll
+│   │       └── sl_ssj-predicted_udpipe-test.conll
+│   └── Swedish-Talbanken
+│       ├── Iteracion_1
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.evaluate.log
+│       │   ├── Iteracion_1.predict.log
+│       │   ├── Iteracion_1.train.log
+│       │   ├── sv_talbanken-predicted-test.conll
+│       │   └── sv_talbanken-predicted_udpipe-test.conll
+│       ├── Iteracion_2
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.evaluate.log
+│       │   ├── Iteracion_2.predict.log
+│       │   ├── Iteracion_2.train.log
+│       │   ├── sv_talbanken-predicted-test.conll
+│       │   └── sv_talbanken-predicted_udpipe-test.conll
+│       └── Iteracion_3
+│           ├── Iteracion_3
+│           ├── Iteracion_3.evaluate.log
+│           ├── Iteracion_3.predict.log
+│           ├── Iteracion_3.train.log
+│           ├── sv_talbanken-predicted-test.conll
+│           └── sv_talbanken-predicted_udpipe-test.conll
+├── Czech
+│   ├── CAC
+│   │   ├── Iteracion_1
+│   │   │   ├── cs_cac-predicted-test.conll
+│   │   │   ├── cs_cac-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── cs_cac-predicted-test.conll
+│   │   │   ├── cs_cac-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── cs_cac-predicted-test.conll
+│   │       ├── cs_cac-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── CLTT
+│   │   ├── Iteracion_1
+│   │   │   ├── cs_cltt-predicted-test.conll
+│   │   │   ├── cs_cltt-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── cs_cltt-predicted-test.conll
+│   │   │   ├── cs_cltt-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── cs_cltt-predicted-test.conll
+│   │       ├── cs_cltt-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── FicTree
+│   │   ├── Iteracion_1
+│   │   │   ├── cs_fictree-predicted-test.conll
+│   │   │   ├── cs_fictree-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── cs_fictree-predicted-test.conll
+│   │   │   ├── cs_fictree-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── cs_fictree-predicted-test.conll
+│   │       ├── cs_fictree-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   └── PDT
+│       ├── Iteracion_1
+│       │   ├── cs_pdt-predicted-test.conll
+│       │   ├── cs_pdt-predicted_udpipe-test.conll
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.evaluate.log
+│       │   ├── Iteracion_1.predict.log
+│       │   └── Iteracion_1.train.log
+│       ├── Iteracion_2
+│       │   ├── cs_pdt-predicted-test.conll
+│       │   ├── cs_pdt-predicted_udpipe-test.conll
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.evaluate.log
+│       │   ├── Iteracion_2.predict.log
+│       │   └── Iteracion_2.train.log
+│       └── Iteracion_3
+│           ├── cs_pdt-predicted-test.conll
+│           ├── cs_pdt-predicted_udpipe-test.conll
+│           ├── Iteracion_3
+│           ├── Iteracion_3.evaluate.log
+│           ├── Iteracion_3.predict.log
+│           └── Iteracion_3.train.log
+├── Dutch
+│   ├── Alpino
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── nl_alpino-predicted-test.conll
+│   │   │   └── nl_alpino-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── nl_alpino-predicted-test.conll
+│   │   │   └── nl_alpino-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── nl_alpino-predicted-test.conll
+│   │       └── nl_alpino-predicted_udpipe-test.conll
+│   └── LassySmall
+│       ├── Iteracion_1
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.evaluate.log
+│       │   ├── Iteracion_1.predict.log
+│       │   ├── Iteracion_1.train.log
+│       │   ├── nl_lassysmall-predicted-test.conll
+│       │   └── nl_lassysmall-predicted_udpipe-test.conll
+│       ├── Iteracion_2
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.evaluate.log
+│       │   ├── Iteracion_2.predict.log
+│       │   ├── Iteracion_2.train.log
+│       │   ├── nl_lassysmall-predicted-test.conll
+│       │   └── nl_lassysmall-predicted_udpipe-test.conll
+│       └── Iteracion_3
+│           ├── Iteracion_3
+│           ├── Iteracion_3.evaluate.log
+│           ├── Iteracion_3.predict.log
+│           ├── Iteracion_3.train.log
+│           ├── nl_lassysmall-predicted-test.conll
+│           └── nl_lassysmall-predicted_udpipe-test.conll
+├── English-EWT
+│   ├── Iteracion_1
+│   │   ├── en_ewt-predicted-test.conll
+│   │   ├── en_ewt-predicted_udpipe-test.conll
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   └── Iteracion_1.train.log
+│   ├── Iteracion_2
+│   │   ├── en_ewt-predicted-test.conll
+│   │   ├── en_ewt-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   └── Iteracion_2.train.log
+│   └── Iteracion_3
+│       ├── en_ewt-predicted-test.conll
+│       ├── en_ewt-predicted_udpipe-test.conll
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       └── Iteracion_3.train.log
+├── Finnish-TDT
+│   ├── Iteracion_1
+│   │   ├── fi_tdt-predicted-test.conll
+│   │   ├── fi_tdt-predicted_udpipe-test.conll
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   └── Iteracion_1.train.log
+│   ├── Iteracion_2
+│   │   ├── fi_tdt-predicted-test.conll
+│   │   ├── fi_tdt-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   └── Iteracion_2.train.log
+│   └── Iteracion_3
+│       ├── fi_tdt-predicted-test.conll
+│       ├── fi_tdt-predicted_udpipe-test.conll
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       └── Iteracion_3.train.log
+├── French-GSD
+│   ├── Iteracion_1
+│   │   ├── fr_gsd-predicted-test.conll
+│   │   ├── fr_gsd-predicted_udpipe-test.conll
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   └── Iteracion_1.train.log
+│   ├── Iteracion_2
+│   │   ├── fr_gsd-predicted-test.conll
+│   │   ├── fr_gsd-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   └── Iteracion_2.train.log
+│   └── Iteracion_3
+│       ├── fr_gsd-predicted-test.conll
+│       ├── fr_gsd-predicted_udpipe-test.conll
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       └── Iteracion_3.train.log
+├── German-GSD
+│   ├── Iteracion_1
+│   │   ├── de_gsd-predicted-test.conll
+│   │   ├── de_gsd-predicted_udpipe-test.conll
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   └── Iteracion_1.train.log
+│   ├── Iteracion_2
+│   │   ├── de_gsd-predicted-test.conll
+│   │   ├── de_gsd-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   └── Iteracion_2.train.log
+│   └── Iteracion_3
+│       ├── de_gsd-predicted-test.conll
+│       ├── de_gsd-predicted_udpipe-test.conll
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       └── Iteracion_3.train.log
+├── Hebrew-HTB
+│   ├── Iteracion_1
+│   │   ├── he_htb-predicted-test.conll
+│   │   ├── he_htb-predicted_udpipe-test.conll
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   └── Iteracion_1.train.log
+│   ├── Iteracion_2
+│   │   ├── he_htb-predicted-test.conll
+│   │   ├── he_htb-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   └── Iteracion_2.train.log
+│   └── Iteracion_3
+│       ├── he_htb-predicted-test.conll
+│       ├── he_htb-predicted_udpipe-test.conll
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       └── Iteracion_3.train.log
+├── Italian-ISDT
+│   ├── Iteracion_1
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   ├── Iteracion_1.train.log
+│   │   ├── it_isdt-predicted-test.conll
+│   │   └── it_isdt-predicted_udpipe-test.conll
+│   ├── Iteracion_2
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   ├── Iteracion_2.train.log
+│   │   ├── it_isdt-predicted-test.conll
+│   │   └── it_isdt-predicted_udpipe-test.conll
+│   └── Iteracion_3
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       ├── Iteracion_3.train.log
+│       ├── it_isdt-predicted-test.conll
+│       └── it_isdt-predicted_udpipe-test.conll
+├── Kazakh-KTB
+│   ├── Iteracion_1
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.predict.log
+│   │   ├── Iteracion_1.train.log
+│   │   └── kk_ktb-predicted-test.conll
+│   ├── Iteracion_2
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.predict.log
+│   │   ├── Iteracion_2.train.log
+│   │   └── kk_ktb-predicted-test.conll
+│   └── Iteracion_3
+│       ├── Iteracion_3
+│       ├── Iteracion_3.predict.log
+│       ├── Iteracion_3.train.log
+│       └── kk_ktb-predicted-test.conll
+├── Kulmiez_SmithEtAl
+│   ├── Arabic-PADT
+│   │   ├── Iteracion_1
+│   │   │   ├── ar_padt-predicted-test.conll
+│   │   │   ├── ar_padt-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── ar_padt-predicted-test.conll
+│   │   │   ├── ar_padt-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── ar_padt-predicted-test.conll
+│   │       ├── ar_padt-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Basque-BDT
+│   │   ├── Iteracion_1
+│   │   │   ├── eu_bdt-predicted-test.conll
+│   │   │   ├── eu_bdt-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── eu_bdt-predicted-test.conll
+│   │   │   ├── eu_bdt-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── eu_bdt-predicted-test.conll
+│   │       ├── eu_bdt-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Japanese-GSD
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── ja_gsd-predicted-test.conll
+│   │   │   └── ja_gsd-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── ja_gsd-predicted-test.conll
+│   │   │   └── ja_gsd-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── ja_gsd-predicted-test.conll
+│   │       └── ja_gsd-predicted_udpipe-test.conll
+│   ├── Korean
+│   │   ├── GSD
+│   │   │   ├── Iteracion_1
+│   │   │   │   ├── Iteracion_1
+│   │   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   │   ├── Iteracion_1.predict.log
+│   │   │   │   ├── Iteracion_1.train.log
+│   │   │   │   ├── ko_gsd-predicted-test.conll
+│   │   │   │   └── ko_gsd-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   │   ├── Iteracion_2
+│   │   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   │   ├── Iteracion_2.predict.log
+│   │   │   │   ├── Iteracion_2.train.log
+│   │   │   │   ├── ko_gsd-predicted-test.conll
+│   │   │   │   └── ko_gsd-predicted_udpipe-test.conll
+│   │   │   └── Iteracion_3
+│   │   │       ├── Iteracion_3
+│   │   │       ├── Iteracion_3.evaluate.log
+│   │   │       ├── Iteracion_3.predict.log
+│   │   │       ├── Iteracion_3.train.log
+│   │   │       ├── ko_gsd-predicted-test.conll
+│   │   │       └── ko_gsd-predicted_udpipe-test.conll
+│   │   └── Kaist
+│   │       ├── Iteracion_1
+│   │       │   ├── Iteracion_1
+│   │       │   ├── Iteracion_1.evaluate.log
+│   │       │   ├── Iteracion_1.predict.log
+│   │       │   ├── Iteracion_1.train.log
+│   │       │   ├── ko_kaist-predicted-test.conll
+│   │       │   └── ko_kaist-predicted_udpipe-test.conll
+│   │       ├── Iteracion_2
+│   │       │   ├── Iteracion_2
+│   │       │   ├── Iteracion_2.evaluate.log
+│   │       │   ├── Iteracion_2.predict.log
+│   │       │   ├── Iteracion_2.train.log
+│   │       │   ├── ko_kaist-predicted-test.conll
+│   │       │   └── ko_kaist-predicted_udpipe-test.conll
+│   │       └── Iteracion_3
+│   │           ├── Iteracion_3
+│   │           ├── Iteracion_3.evaluate.log
+│   │           ├── Iteracion_3.predict.log
+│   │           ├── Iteracion_3.train.log
+│   │           ├── ko_kaist-predicted-test.conll
+│   │           └── ko_kaist-predicted_udpipe-test.conll
+│   └── Turkish-IMST
+│       ├── Iteracion_1
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.evaluate.log
+│       │   ├── Iteracion_1.predict.log
+│       │   ├── Iteracion_1.train.log
+│       │   ├── tr_imst-predicted-test.conll
+│       │   └── tr_imst-predicted_udpipe-test.conll
+│       ├── Iteracion_2
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.evaluate.log
+│       │   ├── Iteracion_2.predict.log
+│       │   ├── Iteracion_2.train.log
+│       │   ├── tr_imst-predicted-test.conll
+│       │   └── tr_imst-predicted_udpipe-test.conll
+│       └── Iteracion_3
+│           ├── Iteracion_3
+│           ├── Iteracion_3.evaluate.log
+│           ├── Iteracion_3.predict.log
+│           ├── Iteracion_3.train.log
+│           ├── tr_imst-predicted-test.conll
+│           └── tr_imst-predicted_udpipe-test.conll
+├── LowResources
+│   ├── Belarusian-HSE
+│   │   ├── Iteracion_1
+│   │   │   ├── be_hse-predicted-test.conll
+│   │   │   ├── be_hse-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── be_hse-predicted-test.conll
+│   │   │   ├── be_hse-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── be_hse-predicted-test.conll
+│   │       ├── be_hse-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Galician-TreeGal
+│   │   ├── Iteracion_1
+│   │   │   ├── gl_treegal-predicted-test.conll
+│   │   │   ├── gl_treegal-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── gl_treegal-predicted-test.conll
+│   │   │   ├── gl_treegal-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── gl_treegal-predicted-test.conll
+│   │       ├── gl_treegal-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Lithuanian-HSE
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── lt_hse-predicted-test.conll
+│   │   │   └── lt_hse-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── lt_hse-predicted-test.conll
+│   │   │   └── lt_hse-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── lt_hse-predicted-test.conll
+│   │       └── lt_hse-predicted_udpipe-test.conll
+│   ├── Marathi-UFAL
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── mr_ufal-predicted-test.conll
+│   │   │   └── mr_ufal-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── mr_ufal-predicted-test.conll
+│   │   │   └── mr_ufal-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── mr_ufal-predicted-test.conll
+│   │       └── mr_ufal-predicted_udpipe-test.conll
+│   ├── Old_Russian-RNC
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   └── orv_rnc-predicted-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   └── orv_rnc-predicted-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       └── orv_rnc-predicted-test.conll
+│   └── Welsh-CCG
+│       ├── Iteracion_1
+│       │   ├── cy_ccg-predicted-test.conll
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.predict.log
+│       │   └── Iteracion_1.train.log
+│       ├── Iteracion_2
+│       │   ├── cy_ccg-predicted-test.conll
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.predict.log
+│       │   └── Iteracion_2.train.log
+│       └── Iteracion_3
+│           ├── cy_ccg-predicted-test.conll
+│           ├── Iteracion_3
+│           ├── Iteracion_3.predict.log
+│           └── Iteracion_3.train.log
+├── Norwegian
+│   ├── Bokmaal
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── no_bokmaal-predicted-test.conll
+│   │   │   └── no_bokmaal-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── no_bokmaal-predicted-test.conll
+│   │   │   └── no_bokmaal-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── no_bokmaal-predicted-test.conll
+│   │       └── no_bokmaal-predicted_udpipe-test.conll
+│   └── Nynorsk
+│       ├── Iteracion_1
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.evaluate.log
+│       │   ├── Iteracion_1.predict.log
+│       │   ├── Iteracion_1.train.log
+│       │   ├── no_nynorsk-predicted-test.conll
+│       │   └── no_nynorsk-predicted_udpipe-test.conll
+│       ├── Iteracion_2
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.evaluate.log
+│       │   ├── Iteracion_2.predict.log
+│       │   ├── Iteracion_2.train.log
+│       │   ├── no_nynorsk-predicted-test.conll
+│       │   └── no_nynorsk-predicted_udpipe-test.conll
+│       └── Iteracion_3
+│           ├── Iteracion_3
+│           ├── Iteracion_3.evaluate.log
+│           ├── Iteracion_3.predict.log
+│           ├── Iteracion_3.train.log
+│           ├── no_nynorsk-predicted-test.conll
+│           └── no_nynorsk-predicted_udpipe-test.conll
+├── Romanian-RRT
+│   ├── Iteracion_1
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   ├── Iteracion_1.train.log
+│   │   ├── ro_rrt-predicted-test.conll
+│   │   └── ro_rrt-predicted_udpipe-test.conll
+│   ├── Iteracion_2
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   ├── Iteracion_2.train.log
+│   │   ├── ro_rrt-predicted-test.conll
+│   │   └── ro_rrt-predicted_udpipe-test.conll
+│   └── Iteracion_3
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       ├── Iteracion_3.train.log
+│       ├── ro_rrt-predicted-test.conll
+│       └── ro_rrt-predicted_udpipe-test.conll
+├── Russian
+│   ├── GSD
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── ru_gsd-predicted-test.conll
+│   │   │   └── ru_gsd-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── ru_gsd-predicted-test.conll
+│   │   │   └── ru_gsd-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── ru_gsd-predicted-test.conll
+│   │       └── ru_gsd-predicted_udpipe-test.conll
+│   └── SynTagRus
+│       ├── Iteracion_1
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.evaluate.log
+│       │   ├── Iteracion_1.predict.log
+│       │   ├── Iteracion_1.train.log
+│       │   ├── ru_syntagrus-predicted-test.conll
+│       │   └── ru_syntagrus-predicted_udpipe-test.conll
+│       ├── Iteracion_2
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.evaluate.log
+│       │   ├── Iteracion_2.predict.log
+│       │   ├── Iteracion_2.train.log
+│       │   ├── ru_syntagrus-predicted-test.conll
+│       │   └── ru_syntagrus-predicted_udpipe-test.conll
+│       └── Iteracion_3
+│           ├── Iteracion_3
+│           ├── Iteracion_3.evaluate.log
+│           ├── Iteracion_3.predict.log
+│           ├── Iteracion_3.train.log
+│           ├── ru_syntagrus-predicted-test.conll
+│           └── ru_syntagrus-predicted_udpipe-test.conll
+├── SchluterEtAl
+│   ├── Coptic-Scriptorium
+│   │   ├── Iteracion_1
+│   │   │   ├── cop_scriptorium-predicted-test.conll
+│   │   │   ├── cop_scriptorium-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── cop_scriptorium-predicted-test.conll
+│   │   │   ├── cop_scriptorium-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── cop_scriptorium-predicted-test.conll
+│   │       ├── cop_scriptorium-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Indonesian-GSD
+│   │   ├── Iteracion_1
+│   │   │   ├── id_gsd-predicted-test.conll
+│   │   │   ├── id_gsd-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── id_gsd-predicted-test.conll
+│   │   │   ├── id_gsd-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── id_gsd-predicted-test.conll
+│   │       ├── id_gsd-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Old_Church_Slavonic-PROIEL
+│   │   ├── Iteracion_1
+│   │   │   ├── cu_proiel-predicted-test.conll
+│   │   │   ├── cu_proiel-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── cu_proiel-predicted-test.conll
+│   │   │   ├── cu_proiel-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── cu_proiel-predicted-test.conll
+│   │       ├── cu_proiel-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   ├── Polish-PDB
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   ├── pl_pdb-predicted-test.conll
+│   │   │   └── pl_pdb-predicted_udpipe-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   ├── pl_pdb-predicted-test.conll
+│   │   │   └── pl_pdb-predicted_udpipe-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       ├── pl_pdb-predicted-test.conll
+│   │       └── pl_pdb-predicted_udpipe-test.conll
+│   ├── Sanskrit-Vedic
+│   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   ├── Iteracion_1.train.log
+│   │   │   └── sa_vedic-predicted-test.conll
+│   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   ├── Iteracion_2.train.log
+│   │   │   └── sa_vedic-predicted-test.conll
+│   │   └── Iteracion_3
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.predict.log
+│   │       ├── Iteracion_3.train.log
+│   │       └── sa_vedic-predicted-test.conll
+│   └── Turkish-IMST
+│       ├── Iteracion_1
+│       │   └── Iteracion_1.predict.log
+│       ├── Iteracion_2
+│       │   └── Iteracion_2.predict.log
+│       └── Iteracion_3
+│           └── Iteracion_3.predict.log
+├── Spanish
+│   ├── AnCora
+│   │   ├── Iteracion_1
+│   │   │   ├── es_ancora-predicted-test.conll
+│   │   │   ├── es_ancora-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_1
+│   │   │   ├── Iteracion_1.evaluate.log
+│   │   │   ├── Iteracion_1.predict.log
+│   │   │   └── Iteracion_1.train.log
+│   │   ├── Iteracion_2
+│   │   │   ├── es_ancora-predicted-test.conll
+│   │   │   ├── es_ancora-predicted_udpipe-test.conll
+│   │   │   ├── Iteracion_2
+│   │   │   ├── Iteracion_2.evaluate.log
+│   │   │   ├── Iteracion_2.predict.log
+│   │   │   └── Iteracion_2.train.log
+│   │   └── Iteracion_3
+│   │       ├── es_ancora-predicted-test.conll
+│   │       ├── es_ancora-predicted_udpipe-test.conll
+│   │       ├── Iteracion_3
+│   │       ├── Iteracion_3.evaluate.log
+│   │       ├── Iteracion_3.predict.log
+│   │       └── Iteracion_3.train.log
+│   └── GSD
+│       ├── Iteracion_1
+│       │   ├── es_gsd-predicted-test.conll
+│       │   ├── es_gsd-predicted_udpipe-test.conll
+│       │   ├── Iteracion_1
+│       │   ├── Iteracion_1.evaluate.log
+│       │   ├── Iteracion_1.predict.log
+│       │   └── Iteracion_1.train.log
+│       ├── Iteracion_2
+│       │   ├── es_gsd-predicted-test.conll
+│       │   ├── es_gsd-predicted_udpipe-test.conll
+│       │   ├── Iteracion_2
+│       │   ├── Iteracion_2.evaluate.log
+│       │   ├── Iteracion_2.predict.log
+│       │   └── Iteracion_2.train.log
+│       └── Iteracion_3
+│           ├── es_gsd-predicted-test.conll
+│           ├── es_gsd-predicted_udpipe-test.conll
+│           ├── Iteracion_3
+│           ├── Iteracion_3.evaluate.log
+│           ├── Iteracion_3.predict.log
+│           └── Iteracion_3.train.log
+├── Tamil-TTB
+│   ├── Iteracion_1
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   ├── Iteracion_1.train.log
+│   │   ├── ta_ttb-predicted-test.conll
+│   │   └── ta_ttb-predicted_udpipe-test.conll
+│   ├── Iteracion_2
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   ├── Iteracion_2.train.log
+│   │   ├── ta_ttb-predicted-test.conll
+│   │   └── ta_ttb-predicted_udpipe-test.conll
+│   └── Iteracion_3
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       ├── Iteracion_3.train.log
+│       ├── ta_ttb-predicted-test.conll
+│       └── ta_ttb-predicted_udpipe-test.conll
+├── Uyghur-UDT
+│   ├── Iteracion_1
+│   │   ├── Iteracion_1
+│   │   ├── Iteracion_1.evaluate.log
+│   │   ├── Iteracion_1.predict.log
+│   │   ├── Iteracion_1.train.log
+│   │   ├── ug_udt-predicted-test.conll
+│   │   └── ug_udt-predicted_udpipe-test.conll
+│   ├── Iteracion_2
+│   │   ├── Iteracion_2
+│   │   ├── Iteracion_2.evaluate.log
+│   │   ├── Iteracion_2.predict.log
+│   │   ├── Iteracion_2.train.log
+│   │   ├── ug_udt-predicted-test.conll
+│   │   └── ug_udt-predicted_udpipe-test.conll
+│   └── Iteracion_3
+│       ├── Iteracion_3
+│       ├── Iteracion_3.evaluate.log
+│       ├── Iteracion_3.predict.log
+│       ├── Iteracion_3.train.log
+│       ├── ug_udt-predicted-test.conll
+│       └── ug_udt-predicted_udpipe-test.conll
+└── Wolof-WTB
+    ├── Iteracion_1
+    │   ├── Iteracion_1
+    │   ├── Iteracion_1.evaluate.log
+    │   ├── Iteracion_1.predict.log
+    │   ├── Iteracion_1.train.log
+    │   ├── wo_wtb-predicted-test.conll
+    │   └── wo_wtb-predicted_udpipe-test.conll
+    ├── Iteracion_2
+    │   ├── Iteracion_2
+    │   ├── Iteracion_2.evaluate.log
+    │   ├── Iteracion_2.predict.log
+    │   ├── Iteracion_2.train.log
+    │   ├── wo_wtb-predicted-test.conll
+    │   └── wo_wtb-predicted_udpipe-test.conll
+    └── Iteracion_3
+        ├── Iteracion_3
+        ├── Iteracion_3.evaluate.log
+        ├── Iteracion_3.predict.log
+        ├── Iteracion_3.train.log
+        ├── wo_wtb-predicted-test.conll
+        └── wo_wtb-predicted_udpipe-test.conll
+
