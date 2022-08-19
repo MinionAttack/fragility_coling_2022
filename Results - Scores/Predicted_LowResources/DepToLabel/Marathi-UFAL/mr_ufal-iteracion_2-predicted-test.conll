@@ -1,0 +1,459 @@
+1	ते	_	PRON	_	_	2	obj	_	_
+2	विकणे	_	VERB	_	_	7	advcl	_	_
+3	_	_	PRON	_	_	5	nmod:poss	_	_
+4	_	_	ADP	_	_	3	case	_	_
+5	_	_	NOUN	_	_	7	obl	_	_
+6	_	_	ADP	_	_	5	case	_	_
+7	येत	_	VERB	_	_	0	root	_	_
+8	होते	_	AUX	_	_	7	aux	_	_
+9	.	_	PUNCT	_	_	7	punct	_	_
+
+1	सावकारी	_	ADJ	_	_	2	amod	_	_
+2	पाशात	_	NOUN	_	_	5	nsubj	_	_
+3	सारे	_	ADJ	_	_	5	amod	_	_
+4	शेतकरी	_	NOUN	_	_	5	obl	_	_
+5	सापडले	_	VERB	_	_	0	root	_	_
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+1	_	_	NOUN	_	_	5	nmod:poss	_	_
+2	_	_	ADP	_	_	1	case	_	_
+3	मूळचे	_	ADJ	_	_	4	nummod	_	_
+4	मालक	_	NOUN	_	_	5	nsubj	_	_
+5	मजूर	_	ADJ	_	_	0	root	_	_
+6	झाले	_	AUX	_	_	5	aux	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+1	केशवचंद्रांना	_	PROPN	_	_	4	nsubj	_	_
+2	ते	_	PRON	_	_	4	obj	_	_
+3	सहन	_	ADV	_	_	4	compound:lvc	_	_
+4	होत	_	VERB	_	_	0	root	_	_
+5	नव्हते	_	AUX	_	_	4	aux	_	_
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+1	आज	_	ADV	_	_	7	advmod	_	_
+2	सकाळी	_	ADV	_	_	7	advmod	_	_
+3	ती	_	DET	_	_	4	det	_	_
+4	_	_	NOUN	_	_	6	obl	_	_
+5	_	_	ADP	_	_	4	case	_	_
+6	बाचाबाची	_	NOUN	_	_	7	obj	_	_
+7	झाली	_	VERB	_	_	0	root	_	_
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+1	सावकार	_	NOUN	_	_	5	nsubj	_	_
+2	का	_	ADV	_	_	5	advmod	_	_
+3	ही	_	DET	_	_	4	det	_	_
+4	जमीन	_	NOUN	_	_	5	obj	_	_
+5	लाटणार	_	VERB	_	_	0	root	_	_
+6	?	_	PUNCT	_	_	5	punct	_	_
+
+1	या	_	DET	_	_	2	det	_	_
+2	_	_	NOUN	_	_	5	nmod:poss	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	मी	_	PRON	_	_	5	nsubj	_	_
+5	मालक	_	NOUN	_	_	0	root	_	_
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+1	उद्या	_	ADV	_	_	4	amod	_	_
+2	मला	_	PRON	_	_	4	obj	_	_
+3	येथे	_	ADV	_	_	4	advmod	_	_
+4	मजूर	_	NOUN	_	_	0	root	_	_
+5	म्हणून	_	SCONJ	_	_	9	cc	_	_
+6	का	_	ADV	_	_	9	cc	_	_
+7	_	_	NOUN	_	_	9	obl	_	_
+8	_	_	ADP	_	_	7	case	_	_
+9	यावे	_	VERB	_	_	4	conj	_	_
+10	लागेल	_	VERB	_	_	9	compound:svc	_	_
+11	?	_	PUNCT	_	_	10	punct	_	_
+
+1	भीमा	_	PROPN	_	_	7	nsubj	_	_
+2	_	_	NOUN	_	_	4	nmod:poss	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	काठी	_	NOUN	_	_	5	obl	_	_
+5	बसून	_	VERB	_	_	7	advcl	_	_
+6	विचार	_	NOUN	_	_	7	obj	_	_
+7	करीत	_	VERB	_	_	0	root	_	_
+8	होता	_	AUX	_	_	7	aux	_	_
+9	.	_	PUNCT	_	_	7	punct	_	_
+
+1	_	_	PRON	_	_	3	nmod:poss	_	_
+2	_	_	ADP	_	_	1	case	_	_
+3	तोंड	_	NOUN	_	_	6	nsubj	_	_
+4	चिंतेने	_	NOUN	_	_	6	obj	_	_
+5	जरा	_	ADV	_	_	6	advmod	_	_
+6	काळवंडले	_	VERB	_	_	0	root	_	_
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+1	इतक्यात	_	ADV	_	_	9	advmod	_	_
+2	_	_	PRON	_	_	4	nmod:poss	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	वडील	_	NOUN	_	_	9	obl	_	_
+5	मुलगी	_	NOUN	_	_	8	obj	_	_
+6	भीमी	_	PROPN	_	_	8	iobj	_	_
+7	लहान	_	ADJ	_	_	8	amod	_	_
+8	भावंडाला	_	NOUN	_	_	9	obl	_	_
+9	घेऊन	_	VERB	_	_	10	advcl	_	_
+10	आली	_	VERB	_	_	0	root	_	_
+11	.	_	PUNCT	_	_	10	punct	_	_
+
+1	"	_	PUNCT	_	_	6	punct	_	_
+2	बाबा	_	NOUN	_	_	6	vocative	_	_
+3	,	_	PUNCT	_	_	6	punct	_	_
+4	आईने	_	NOUN	_	_	6	nsubj	_	_
+5	घरी	_	ADV	_	_	6	obj	_	_
+6	बोलावले	_	VERB	_	_	0	root	_	_
+7	आहे	_	AUX	_	_	6	aux	_	_
+8	.	_	PUNCT	_	_	6	punct	_	_
+9	"	_	PUNCT	_	_	6	punct	_	_
+10	ती	_	PRON	_	_	11	nsubj	_	_
+11	म्हणाली	_	VERB	_	_	6	parataxis	_	_
+12	.	_	PUNCT	_	_	11	punct	_	_
+
+1	"	_	PUNCT	_	_	5	punct	_	_
+2	कशाला	_	ADV	_	_	5	vocative	_	_
+3	ग	_	INTJ	_	_	5	vocative	_	_
+4	,	_	PUNCT	_	_	5	punct	_	_
+5	पोरी	_	NOUN	_	_	0	root	_	_
+6	?	_	PUNCT	_	_	5	punct	_	_
+7	"	_	PUNCT	_	_	5	punct	_	_
+
+1	"	_	PUNCT	_	_	3	punct	_	_
+2	सावकार	_	NOUN	_	_	3	nsubj	_	_
+3	आला	_	VERB	_	_	0	root	_	_
+4	आहे	_	AUX	_	_	3	aux	_	_
+5	घरी	_	ADV	_	_	3	root	_	_
+6	.	_	PUNCT	_	_	3	punct	_	_
+7	"	_	PUNCT	_	_	3	punct	_	_
+
+1	"	_	PUNCT	_	_	3	punct	_	_
+2	काय	_	PRON	_	_	3	nsubj	_	_
+3	म्हणतो	_	VERB	_	_	0	root	_	_
+4	तो	_	PRON	_	_	3	root	_	_
+5	?	_	PUNCT	_	_	4	punct	_	_
+6	"	_	PUNCT	_	_	4	punct	_	_
+
+1	"	_	PUNCT	_	_	3	punct	_	_
+2	आईला	_	NOUN	_	_	3	nsubj	_	_
+3	म्हणाला	_	VERB	_	_	0	root	_	_
+4	,	_	PUNCT	_	_	3	punct	_	_
+5	'	_	PUNCT	_	_	8	punct	_	_
+6	हजार	_	NUM	_	_	7	nsubj	_	_
+7	रुपये	_	NOUN	_	_	8	obj	_	_
+8	घ्या	_	VERB	_	_	3	conj	_	_
+9	व	_	CCONJ	_	_	11	cc	_	_
+10	शेत	_	NOUN	_	_	11	obj	_	_
+11	द्या	_	VERB	_	_	8	conj	_	_
+12	!	_	PUNCT	_	_	11	punct	_	_
+13	'	_	PUNCT	_	_	23	punct	_	_
+14	आणि	_	CCONJ	_	_	16	cc	_	_
+15	मला	_	PRON	_	_	16	nsubj	_	_
+16	म्हणाला	_	VERB	_	_	3	parataxis	_	_
+17	,	_	PUNCT	_	_	16	punct	_	_
+18	'	_	PUNCT	_	_	23	cc	_	_
+19	_	_	PRON	_	_	21	nmod:poss	_	_
+20	_	_	ADP	_	_	19	case	_	_
+21	बापाला	_	NOUN	_	_	23	nsubj	_	_
+22	काही	_	PRON	_	_	23	obj	_	_
+23	कळत	_	VERB	_	_	3	conj	_	_
+24	नाही	_	AUX	_	_	23	aux	_	_
+25	.	_	PUNCT	_	_	23	punct	_	_
+26	'	_	PUNCT	_	_	23	punct	_	_
+
+1	"	_	PUNCT	_	_	7	punct	_	_
+2	बाबा	_	NOUN	_	_	7	vocative	_	_
+3	,	_	PUNCT	_	_	7	punct	_	_
+4	शेत	_	NOUN	_	_	7	nsubj	_	_
+5	का	_	ADV	_	_	7	advmod	_	_
+6	तुम्ही	_	PRON	_	_	7	obj	_	_
+7	विकणार	_	VERB	_	_	0	root	_	_
+8	?	_	PUNCT	_	_	7	punct	_	_
+9	"	_	PUNCT	_	_	7	punct	_	_
+
+1	"	_	PUNCT	_	_	3	punct	_	_
+2	प्राण	_	NOUN	_	_	3	obj	_	_
+3	गेला	_	VERB	_	_	0	root	_	_
+4	तरी	_	SCONJ	_	_	5	advmod	_	_
+5	विकणार	_	VERB	_	_	3	root	_	_
+6	नाही	_	AUX	_	_	5	aux	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+8	"	_	PUNCT	_	_	5	punct	_	_
+
+1	"	_	PUNCT	_	_	6	punct	_	_
+2	_	_	PRON	_	_	4	nmod:poss	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	आई	_	NOUN	_	_	6	nsubj	_	_
+5	काय	_	PRON	_	_	6	obj	_	_
+6	म्हणाली	_	VERB	_	_	0	root	_	_
+7	?	_	PUNCT	_	_	6	punct	_	_
+8	"	_	PUNCT	_	_	6	punct	_	_
+
+1	"	_	PUNCT	_	_	3	punct	_	_
+2	ती	_	PRON	_	_	3	nsubj	_	_
+3	म्हणाली	_	VERB	_	_	0	root	_	_
+4	,	_	PUNCT	_	_	3	punct	_	_
+5	'	_	PUNCT	_	_	7	cc	_	_
+6	त्यांना	_	PRON	_	_	7	nsubj	_	_
+7	विचारा	_	VERB	_	_	3	parataxis	_	_
+8	.	_	PUNCT	_	_	7	punct	_	_
+9	'	_	PUNCT	_	_	7	punct	_	_
+10	"	_	PUNCT	_	_	7	punct	_	_
+
+1	आणखी	_	CCONJ	_	_	2	nummod	_	_
+2	आई	_	NOUN	_	_	4	nsubj	_	_
+3	त्यांना	_	PRON	_	_	4	nsubj	_	_
+4	म्हणाली	_	VERB	_	_	0	root	_	_
+5	,	_	PUNCT	_	_	4	punct	_	_
+6	'	_	PUNCT	_	_	8	cc	_	_
+7	पैसे	_	NOUN	_	_	8	obj	_	_
+8	काय	_	PRON	_	_	4	parataxis	_	_
+9	,	_	PUNCT	_	_	4	punct	_	_
+10	आज	_	ADV	_	_	12	advmod	_	_
+11	आहेत	_	AUX	_	_	4	cop	_	_
+12	उद्या	_	ADV	_	_	4	conj	_	_
+13	नाहीत	_	AUX	_	_	12	cop	_	_
+14	,	_	PUNCT	_	_	4	punct	_	_
+15	जमीन	_	NOUN	_	_	4	nsubj	_	_
+16	कायमची	_	ADJ	_	_	4	amod	_	_
+17	सत्तेची	_	ADJ	_	_	16	conj	_	_
+18	.	_	PUNCT	_	_	17	punct	_	_
+19	'	_	PUNCT	_	_	17	punct	_	_
+20	"	_	PUNCT	_	_	17	punct	_	_
+
+1	ती	_	PRON	_	_	2	nsubj	_	_
+2	विकून	_	VERB	_	_	4	advcl	_	_
+3	कुठे	_	ADV	_	_	4	advmod	_	_
+4	जायचे	_	VERB	_	_	0	root	_	_
+5	?	_	PUNCT	_	_	4	punct	_	_
+
+1	शहाणी	_	ADJ	_	_	0	root	_	_
+2	आहे	_	AUX	_	_	1	cop	_	_
+3	_	_	PRON	_	_	5	nmod:poss	_	_
+4	_	_	ADP	_	_	3	case	_	_
+5	आई	_	NOUN	_	_	1	root	_	_
+6	!	_	PUNCT	_	_	5	punct	_	_
+
+1	भीमा	_	PROPN	_	_	5	nsubj	_	_
+2	_	_	NOUN	_	_	4	obl	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	घरी	_	ADV	_	_	5	obl	_	_
+5	आला	_	VERB	_	_	0	root	_	_
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+1	सावकार	_	NOUN	_	_	2	nsubj	_	_
+2	निघून	_	VERB	_	_	0	root	_	_
+3	गेला	_	VERB	_	_	2	compound:svc	_	_
+4	होता	_	AUX	_	_	3	aux	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+1	बायकोने	_	NOUN	_	_	8	nsubj	_	_
+2	सारी	_	ADJ	_	_	3	amod	_	_
+3	बोलणी	_	NOUN	_	_	8	obl	_	_
+4	_	_	PROPN	_	_	6	nmod:poss	_	_
+5	_	_	ADP	_	_	4	case	_	_
+6	_	_	NOUN	_	_	8	obl	_	_
+7	_	_	ADP	_	_	6	case	_	_
+8	घातली	_	VERB	_	_	0	root	_	_
+9	.	_	PUNCT	_	_	8	punct	_	_
+
+1	"	_	PUNCT	_	_	5	punct	_	_
+2	साप	_	NOUN	_	_	5	nsubj	_	_
+3	आहे	_	AUX	_	_	5	cop	_	_
+4	तो	_	DET	_	_	5	det	_	_
+5	मेला	_	NOUN	_	_	0	root	_	_
+6	!	_	PUNCT	_	_	5	punct	_	_
+
+1	"	_	PUNCT	_	_	8	punct	_	_
+2	तो	_	PRON	_	_	8	nsubj	_	_
+3	_	_	PRON	_	_	5	nmod:poss	_	_
+4	_	_	ADP	_	_	3	case	_	_
+5	सत्यानाश	_	NOUN	_	_	6	obj	_	_
+6	_	_	VERB	_	_	8	advcl	_	_
+7	_	_	ADP	_	_	6	case	_	_
+8	राहणार	_	VERB	_	_	0	root	_	_
+9	नाही	_	AUX	_	_	8	aux	_	_
+10	!	_	PUNCT	_	_	8	punct	_	_
+11	"	_	PUNCT	_	_	8	punct	_	_
+12	तो	_	PRON	_	_	13	nsubj	_	_
+13	म्हणाला	_	VERB	_	_	8	parataxis	_	_
+14	.	_	PUNCT	_	_	13	punct	_	_
+
+1	"	_	PUNCT	_	_	6	punct	_	_
+2	_	_	PRON	_	_	4	nmod:poss	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	बाबतीत	_	NOUN	_	_	6	obj	_	_
+5	देव	_	NOUN	_	_	6	obj	_	_
+6	मेला	_	VERB	_	_	0	root	_	_
+7	,	_	PUNCT	_	_	13	punct	_	_
+8	तसा	_	SCONJ	_	_	13	mark	_	_
+9	_	_	PRON	_	_	11	nmod:poss	_	_
+10	_	_	ADP	_	_	9	case	_	_
+11	_	_	NOUN	_	_	13	conj	_	_
+12	_	_	PART	_	_	11	discourse	_	_
+13	मरायचा	_	VERB	_	_	6	parataxis	_	_
+14	!	_	PUNCT	_	_	13	punct	_	_
+15	"	_	PUNCT	_	_	13	punct	_	_
+
+1	"	_	PUNCT	_	_	4	punct	_	_
+2	त्यांनी	_	PRON	_	_	4	nsubj	_	_
+3	हिंमत	_	NOUN	_	_	4	obj	_	_
+4	सोडली	_	VERB	_	_	0	root	_	_
+5	म्हणून	_	SCONJ	_	_	9	cc	_	_
+6	_	_	PRON	_	_	8	nmod:poss	_	_
+7	_	_	ADP	_	_	6	case	_	_
+8	देव	_	NOUN	_	_	9	obj	_	_
+9	मेला	_	VERB	_	_	4	conj	_	_
+10	!	_	PUNCT	_	_	9	punct	_	_
+11	"	_	PUNCT	_	_	9	punct	_	_
+
+1	जो	_	PRON	_	_	5	nsubj	_	_
+2	_	_	NOUN	_	_	4	nmod:poss	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	उभा	_	ADJ	_	_	5	obj	_	_
+5	राहतो	_	VERB	_	_	9	advcl	_	_
+6	_	_	PRON	_	_	8	nmod:poss	_	_
+7	_	_	ADP	_	_	6	case	_	_
+8	देव	_	NOUN	_	_	9	obj	_	_
+9	मरत	_	VERB	_	_	0	root	_	_
+10	नाही	_	AUX	_	_	9	aux	_	_
+11	.	_	PUNCT	_	_	9	punct	_	_
+
+1	समजलीस	_	VERB	_	_	0	root	_	_
+2	?	_	PUNCT	_	_	1	punct	_	_
+
+1	काही	_	ADJ	_	_	2	nummod	_	_
+2	दिवस	_	NOUN	_	_	3	obj	_	_
+3	गेले	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+1	केशवचंद्राने	_	PROPN	_	_	4	nsubj	_	_
+2	न्यायालयात	_	NOUN	_	_	4	obj	_	_
+3	फिर्याद	_	NOUN	_	_	4	compound:lvc	_	_
+4	केली	_	VERB	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+1	_	_	PROPN	_	_	6	nmod:poss	_	_
+2	_	_	ADP	_	_	1	case	_	_
+3	असलेली	_	AUX	_	_	4	amod	_	_
+4	जमीन	_	NOUN	_	_	6	nsubj	_	_
+5	वास्तविक	_	ADV	_	_	6	advmod	_	_
+6	_	_	PRON	_	_	0	root	_	_
+7	_	_	ADP	_	_	6	case	_	_
+8	आहे	_	AUX	_	_	6	cop	_	_
+9	.	_	PUNCT	_	_	6	punct	_	_
+
+1	जुने	_	ADJ	_	_	2	amod	_	_
+2	कागदपत्र	_	NOUN	_	_	3	obj	_	_
+3	सापडले	_	VERB	_	_	0	root	_	_
+4	आहेत	_	AUX	_	_	3	aux	_	_
+5	_	_	PRON	_	_	7	nmod:poss	_	_
+6	_	_	ADP	_	_	5	case	_	_
+7	हे	_	PRON	_	_	9	nsubj	_	_
+8	सिद्ध	_	NOUN	_	_	9	obj	_	_
+9	होत	_	VERB	_	_	3	conj	_	_
+10	आहे	_	AUX	_	_	9	aux	_	_
+11	,	_	PUNCT	_	_	3	punct	_	_
+12	वगैरे	_	ADV	_	_	15	mark	_	_
+13	_	_	PRON	_	_	15	nmod:poss	_	_
+14	_	_	ADP	_	_	13	case	_	_
+15	म्हणणे	_	VERB	_	_	9	parataxis	_	_
+16	.	_	PUNCT	_	_	15	punct	_	_
+
+1	न्यायाधीश	_	NOUN	_	_	4	nsubj	_	_
+2	_	_	PROPN	_	_	4	nmod:poss	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	_	_	NOUN	_	_	0	root	_	_
+5	_	_	ADP	_	_	4	case	_	_
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+1	पैशाने	_	NOUN	_	_	4	nsubj	_	_
+2	कोण	_	PRON	_	_	4	obj	_	_
+3	वश	_	ADJ	_	_	4	compound:lvc	_	_
+4	होत	_	VERB	_	_	0	root	_	_
+5	नाही	_	AUX	_	_	4	aux	_	_
+6	!	_	PUNCT	_	_	4	punct	_	_
+
+1	भीमाला	_	PROPN	_	_	3	nsubj	_	_
+2	न्यायालयात	_	NOUN	_	_	3	obj	_	_
+3	बोलावण्यात	_	VERB	_	_	0	root	_	_
+4	आले	_	VERB	_	_	3	compound:svc	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+1	केशवचंद्राने	_	PROPN	_	_	9	nsubj	_	_
+2	म्हातारे	_	ADJ	_	_	3	amod	_	_
+3	शेतकरी	_	NOUN	_	_	9	obj	_	_
+4	पैशाने	_	NOUN	_	_	8	obj	_	_
+5	विकत	_	ADV	_	_	6	advmod	_	_
+6	घेऊन	_	VERB	_	_	8	advcl	_	_
+7	साक्षीदार	_	NOUN	_	_	8	compound:lvc	_	_
+8	म्हणून	_	VERB	_	_	9	root	_	_
+9	आणले	_	VERB	_	_	0	root	_	_
+10	होते	_	AUX	_	_	9	aux	_	_
+11	.	_	PUNCT	_	_	9	punct	_	_
+
+1	त्याने	_	PRON	_	_	9	nsubj	_	_
+2	_	_	PRON	_	_	4	nmod:poss	_	_
+3	_	_	ADP	_	_	2	case	_	_
+4	बाजू	_	NOUN	_	_	5	obj	_	_
+5	_	_	VERB	_	_	7	advcl	_	_
+6	_	_	ADP	_	_	5	case	_	_
+7	_	_	NOUN	_	_	9	obl	_	_
+8	_	_	PART	_	_	7	discourse	_	_
+9	आणला	_	VERB	_	_	0	root	_	_
+10	होता	_	AUX	_	_	9	aux	_	_
+11	.	_	PUNCT	_	_	9	punct	_	_
+
+1	_	_	PROPN	_	_	3	nmod:poss	_	_
+2	_	_	ADP	_	_	1	case	_	_
+3	बाजू	_	NOUN	_	_	5	nsubj	_	_
+4	कोण	_	PRON	_	_	5	obj	_	_
+5	मांडणार	_	VERB	_	_	0	root	_	_
+6	?	_	PUNCT	_	_	5	punct	_	_
+
+1	तो	_	PRON	_	_	5	nsubj	_	_
+2	न्यायाधीशास	_	NOUN	_	_	5	obj	_	_
+3	_	_	PRON	_	_	5	obl	_	_
+4	_	_	PART	_	_	3	discourse	_	_
+5	म्हणाला	_	VERB	_	_	0	root	_	_
+6	,	_	PUNCT	_	_	5	punct	_	_
+7	"	_	PUNCT	_	_	5	punct	_	_
+8	महाराज	_	NOUN	_	_	11	vocative	_	_
+9	,	_	PUNCT	_	_	8	punct	_	_
+10	देवाधर्माला	_	NOUN	_	_	11	obj	_	_
+11	स्मरून	_	VERB	_	_	13	conj	_	_
+12	मी	_	PRON	_	_	13	nsubj	_	_
+13	सांगतो	_	VERB	_	_	5	conj	_	_
+14	की	_	SCONJ	_	_	18	mark	_	_
+15	ही	_	PRON	_	_	18	nsubj	_	_
+16	_	_	PRON	_	_	18	nmod:poss	_	_
+17	_	_	ADP	_	_	16	case	_	_
+18	जमीन	_	NOUN	_	_	13	conj	_	_
+19	आहे	_	AUX	_	_	18	cop	_	_
+20	.	_	PUNCT	_	_	18	punct	_	_
+
+1	_	_	NOUN	_	_	5	nmod:poss	_	_
+2	_	_	ADP	_	_	1	case	_	_
+3	ही	_	PRON	_	_	4	nsubj	_	_
+4	चालत	_	VERB	_	_	5	advcl	_	_
+5	आली	_	VERB	_	_	0	root	_	_
+6	आहे	_	AUX	_	_	5	aux	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+1	सावकाराला	_	NOUN	_	_	2	nsubj	_	_
+2	बघवत	_	VERB	_	_	0	root	_	_
+3	नाही	_	AUX	_	_	2	aux	_	_
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+1	हजार	_	NUM	_	_	2	nummod	_	_
+2	रुपये	_	NOUN	_	_	3	obj	_	_
+3	द्यायला	_	VERB	_	_	5	advcl	_	_
+4	तयार	_	ADV	_	_	5	compound:lvc	_	_
+5	झाला	_	VERB	_	_	0	root	_	_
+6	होता	_	AUX	_	_	5	aux	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+8	"	_	PUNCT	_	_	5	punct	_	_
+
+1	"	_	PUNCT	_	_	3	punct	_	_
+2	हजार	_	NUM	_	_	3	vocative	_	_
+3	रुपये	_	NOUN	_	_	0	root	_	_
+4	?	_	PUNCT	_	_	3	punct	_	_
+5	"	_	PUNCT	_	_	3	punct	_	_
+
