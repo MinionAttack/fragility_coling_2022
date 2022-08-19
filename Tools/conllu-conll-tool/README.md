@@ -42,7 +42,7 @@ This will show the usage:
 
 ```
 usage: conllu-conll-tool.py [-h]
-                            {convert,combine,split,clean,fill,generate,columns,remove-pos,ttest,swap,remove-column,add-column,empty-nodes,enhanced-ud,extract}
+                            {convert,combine,split,clean,fill,generate,columns,remove-pos}
                             ...
 
 Convert CoNLL-U files to CoNLL files
@@ -51,7 +51,7 @@ optional arguments:
   -h, --help            show this help message and exit
 
 Commands:
-  {convert,combine,split,clean,fill,generate,columns,remove-pos,ttest,swap,remove-column,add-column,empty-nodes,enhanced-ud,extract}
+  {convert,combine,split,clean,fill,generate,columns,remove-pos}
     convert             Convert from CoNLL-U format to CoNLL format.
     combine             Combine multiple files from one phase (train,
                         validation or test) into one file.
