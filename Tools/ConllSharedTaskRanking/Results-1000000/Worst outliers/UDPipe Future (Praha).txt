@@ -1,0 +1,195 @@
+INFO: Obtaining the 10 worst outliers for parser UDPipe Future (Praha) in subsets of size 10 for a sampling size of 1000000
+INFO: Showing outliers for Labeled Attachment Score (LAS)
+
+| Subset                                                                                                                |  Position  |
+|-----------------------------------------------------------------------------------------------------------------------|------------|
+| ('pl_sz', 'es_ancora', 'br_keb', 'it_postwita', 'th_pud', 'he_htb', 'pcm_nsc', 'bxr_bdt', 'hsb_ufal', 'ca_ancora')    |     12     |
+| ('bxr_bdt', 'la_ittb', 'hsb_ufal', 'pcm_nsc', 'th_pud', 'ro_rrt', 'br_keb', 'no_bokmaal', 'sl_ssj', 'sv_pud')         |     12     |
+| ('zh_gsd', 'kk_ktb', 'th_pud', 'pcm_nsc', 'cs_pud', 'it_postwita', 'en_lines', 'hsb_ufal', 'pt_bosque', 'bxr_bdt')    |     12     |
+| ('hsb_ufal', 'es_ancora', 'th_pud', 'cs_pdt', 'bxr_bdt', 'gl_ctg', 'la_proiel', 'pcm_nsc', 'id_gsd', 'br_keb')        |     12     |
+| ('br_keb', 'hsb_ufal', 'de_gsd', 'ja_modern', 'pcm_nsc', 'fr_gsd', 'he_htb', 'hi_hdtb', 'sv_lines', 'bxr_bdt')        |     12     |
+| ('bg_btb', 'ko_kaist', 'br_keb', 'pcm_nsc', 'sl_sst', 'el_gdt', 'bxr_bdt', 'hsb_ufal', 'en_lines', 'th_pud')          |     11     |
+| ('hsb_ufal', 'pcm_nsc', 'fr_spoken', 'ru_taiga', 'ja_gsd', 'en_lines', 'hi_hdtb', 'grc_perseus', 'he_htb', 'bxr_bdt') |     11     |
+| ('hi_hdtb', 'hsb_ufal', 'es_ancora', 'tr_imst', 'en_gum', 'pcm_nsc', 'cs_cac', 'nl_lassysmall', 'sl_ssj', 'ur_udtb')  |     11     |
+| ('zh_gsd', 'gl_ctg', 'hsb_ufal', 'pcm_nsc', 'la_proiel', 'hi_hdtb', 'da_ddt', 'en_lines', 'en_ewt', 'sv_lines')       |     11     |
+| ('fa_seraji', 'hsb_ufal', 'fr_gsd', 'id_gsd', 'ru_taiga', 'bxr_bdt', 'pt_bosque', 'sl_ssj', 'de_gsd', 'pcm_nsc')      |     11     |
+
+INFO: Showing outliers for Morphology-Aware Labeled Attachment Score (MLAS)
+
+| Subset                                                                                                                     |  Position  |
+|----------------------------------------------------------------------------------------------------------------------------|------------|
+| ('en_pud', 'tr_imst', 'br_keb', 'ja_modern', 'hy_armtdp', 'th_pud', 'sl_sst', 'kmr_mg', 'en_lines', 'ko_gsd')              |     8      |
+| ('la_proiel', 'sv_pud', 'ko_kaist', 'kmr_mg', 'fr_spoken', 'br_keb', 'fr_gsd', 'hy_armtdp', 'en_lines', 'ja_modern')       |     8      |
+| ('en_lines', 'zh_gsd', 'eu_bdt', 'br_keb', 'no_nynorsklia', 'it_isdt', 'kmr_mg', 'en_ewt', 'hy_armtdp', 'ja_modern')       |     8      |
+| ('th_pud', 'bxr_bdt', 'ko_kaist', 'ja_modern', 'hy_armtdp', 'ja_gsd', 'ur_udtb', 'fr_gsd', 'br_keb', 'no_nynorsklia')      |     8      |
+| ('hy_armtdp', 'ru_taiga', 'ja_gsd', 'gl_ctg', 'fo_oft', 'kmr_mg', 'hsb_ufal', 'fr_gsd', 'sv_lines', 'la_ittb')             |     8      |
+| ('ru_taiga', 'br_keb', 'hsb_ufal', 'ko_gsd', 'kmr_mg', 'ja_modern', 'id_gsd', 'fi_pud', 'pcm_nsc', 'fo_oft')               |     8      |
+| ('hy_armtdp', 'hsb_ufal', 'br_keb', 'kmr_mg', 'no_bokmaal', 'id_gsd', 'ko_gsd', 'zh_gsd', 'bxr_bdt', 'sr_set')             |     8      |
+| ('no_nynorsklia', 'br_keb', 'fo_oft', 'hsb_ufal', 'en_ewt', 'ur_udtb', 'hy_armtdp', 'kmr_mg', 'cs_fictree', 'es_ancora')   |     8      |
+| ('hy_armtdp', 'tr_imst', 'nl_lassysmall', 'zh_gsd', 'en_lines', 'hsb_ufal', 'es_ancora', 'cs_fictree', 'kmr_mg', 'th_pud') |     8      |
+| ('kmr_mg', 'en_ewt', 'en_lines', 'gl_ctg', 'no_nynorsk', 'hy_armtdp', 'pcm_nsc', 'th_pud', 'ja_gsd', 'en_gum')             |     8      |
+
+INFO: Showing outliers for Bilexical dependency score (BLEX)
+
+| Subset                                                                                                                                 |  Position  |
+|----------------------------------------------------------------------------------------------------------------------------------------|------------|
+| ('hsb_ufal', 'pcm_nsc', 'fr_spoken', 'ru_taiga', 'ja_gsd', 'en_lines', 'hi_hdtb', 'grc_perseus', 'he_htb', 'bxr_bdt')                  |     8      |
+| ('fr_sequoia', 'fr_spoken', 'ja_modern', 'no_nynorsklia', 'en_lines', 'hsb_ufal', 'cs_fictree', 'nl_lassysmall', 'pcm_nsc', 'en_ewt')  |     8      |
+| ('pcm_nsc', 'ja_modern', 'sv_talbanken', 'ja_gsd', 'hsb_ufal', 'en_gum', 'la_ittb', 'no_nynorsklia', 'br_keb', 'fr_spoken')            |     8      |
+| ('sv_lines', 'bxr_bdt', 'ru_taiga', 'got_proiel', 'en_lines', 'kmr_mg', 'hy_armtdp', 'pcm_nsc', 'it_postwita', 'no_bokmaal')           |     8      |
+| ('fr_gsd', 'kmr_mg', 'grc_perseus', 'pcm_nsc', 'en_lines', 'th_pud', 'got_proiel', 'sv_lines', 'no_nynorsklia', 'hy_armtdp')           |     8      |
+| ('grc_perseus', 'grc_proiel', 'br_keb', 'pcm_nsc', 'bxr_bdt', 'fr_spoken', 'sl_sst', 'no_nynorsklia', 'nl_alpino', 'en_ewt')           |     8      |
+| ('kk_ktb', 'la_proiel', 'pcm_nsc', 'it_postwita', 'nl_alpino', 'grc_proiel', 'no_nynorsklia', 'br_keb', 'bxr_bdt', 'ru_taiga')         |     8      |
+| ('no_nynorsklia', 'en_lines', 'kmr_mg', 'sv_lines', 'grc_perseus', 'la_proiel', 'pcm_nsc', 'it_postwita', 'cu_proiel', 'af_afribooms') |     7      |
+| ('fro_srcmf', 'ru_taiga', 'ja_modern', 'de_gsd', 'zh_gsd', 'fr_sequoia', 'pcm_nsc', 'bxr_bdt', 'pt_bosque', 'ro_rrt')                  |     7      |
+| ('hy_armtdp', 'grc_perseus', 'grc_proiel', 'fr_gsd', 'pt_bosque', 'kmr_mg', 'ja_modern', 'pl_lfg', 'kk_ktb', 'pcm_nsc')                |     7      |
+
+INFO: Showing outliers for UAS
+
+| Subset                                                                                                              |  Position  |
+|---------------------------------------------------------------------------------------------------------------------|------------|
+| ('pl_sz', 'sv_lines', 'ar_padt', 'he_htb', 'th_pud', 'it_isdt', 'bxr_bdt', 'ja_gsd', 'es_ancora', 'hsb_ufal')       |     12     |
+| ('bxr_bdt', 'fi_tdt', 'la_proiel', 'nl_alpino', 'ja_gsd', 'hsb_ufal', 'pt_bosque', 'pcm_nsc', 'ur_udtb', 'tr_imst') |     12     |
+| ('bxr_bdt', 'lv_lvtb', 'hsb_ufal', 'fa_seraji', 'sk_snk', 'en_gum', 'af_afribooms', 'he_htb', 'ja_gsd', 'th_pud')   |     12     |
+| ('el_gdt', 'it_isdt', 'et_edt', 'bxr_bdt', 'hr_set', 'hsb_ufal', 'he_htb', 'da_ddt', 'de_gsd', 'th_pud')            |     12     |
+| ('sl_ssj', 'hr_set', 'tr_imst', 'hsb_ufal', 'it_postwita', 'it_isdt', 'lv_lvtb', 'en_ewt', 'bxr_bdt', 'gl_ctg')     |     12     |
+| ('da_ddt', 'fi_tdt', 'zh_gsd', 'tr_imst', 'fr_gsd', 'ar_padt', 'es_ancora', 'hsb_ufal', 'hr_set', 'bxr_bdt')        |     12     |
+| ('zh_gsd', 'pcm_nsc', 'ro_rrt', 'bxr_bdt', 'sl_ssj', 'th_pud', 'sl_sst', 'fr_gsd', 'hsb_ufal', 'ar_padt')           |     12     |
+| ('gl_ctg', 'fr_gsd', 'th_pud', 'he_htb', 'uk_iu', 'fr_sequoia', 'bxr_bdt', 'hsb_ufal', 'ca_ancora', 'et_edt')       |     12     |
+| ('en_ewt', 'en_gum', 'ro_rrt', 'sv_talbanken', 'he_htb', 'bg_btb', 'hsb_ufal', 'bxr_bdt', 'th_pud', 'tr_imst')      |     12     |
+| ('hsb_ufal', 'ja_gsd', 'no_nynorsk', 'ur_udtb', 'sl_ssj', 'no_bokmaal', 'da_ddt', 'it_isdt', 'zh_gsd', 'bxr_bdt')   |     12     |
+
+INFO: Showing outliers for CLAS
+
+| Subset                                                                                                                        |  Position  |
+|-------------------------------------------------------------------------------------------------------------------------------|------------|
+| ('sl_ssj', 'pcm_nsc', 'ko_kaist', 'hsb_ufal', 'ru_taiga', 'ro_rrt', 'ja_gsd', 'id_gsd', 'en_ewt', 'cs_pdt')                   |     12     |
+| ('hi_hdtb', 'hsb_ufal', 'es_ancora', 'tr_imst', 'en_gum', 'pcm_nsc', 'cs_cac', 'nl_lassysmall', 'sl_ssj', 'ur_udtb')          |     11     |
+| ('en_lines', 'cs_fictree', 'hsb_ufal', 'ro_rrt', 'pcm_nsc', 'id_gsd', 'et_edt', 'bxr_bdt', 'ur_udtb', 'no_nynorsklia')        |     11     |
+| ('fi_tdt', 'it_isdt', 'hsb_ufal', 'zh_gsd', 'la_ittb', 'hr_set', 'cs_fictree', 'sr_set', 'pcm_nsc', 'en_lines')               |     11     |
+| ('ur_udtb', 'br_keb', 'ru_taiga', 'grc_proiel', 'pcm_nsc', 'hsb_ufal', 'he_htb', 'la_proiel', 'it_postwita', 'no_nynorsklia') |     11     |
+| ('fa_seraji', 'hsb_ufal', 'fr_gsd', 'id_gsd', 'ru_taiga', 'bxr_bdt', 'pt_bosque', 'sl_ssj', 'de_gsd', 'pcm_nsc')              |     11     |
+| ('cs_pdt', 'sv_lines', 'fa_seraji', 'hsb_ufal', 'pt_bosque', 'pcm_nsc', 'th_pud', 'ja_gsd', 'el_gdt', 'hr_set')               |     11     |
+| ('hsb_ufal', 'fr_sequoia', 'ko_kaist', 'sl_sst', 'he_htb', 'pcm_nsc', 'it_postwita', 'bxr_bdt', 'tr_imst', 'ru_taiga')        |     11     |
+| ('zh_gsd', 'pcm_nsc', 'fr_spoken', 'hi_hdtb', 'en_lines', 'ja_gsd', 'hsb_ufal', 'sv_lines', 'cs_fictree', 'fr_sequoia')       |     11     |
+| ('ko_kaist', 'la_ittb', 'th_pud', 'id_gsd', 'it_isdt', 'pcm_nsc', 'cs_fictree', 'et_edt', 'uk_iu', 'hsb_ufal')                |     11     |
+
+INFO: Showing outliers for UPOS tagging
+
+| Subset                                                                                                                        |  Position  |
+|-------------------------------------------------------------------------------------------------------------------------------|------------|
+| ('ru_syntagrus', 'id_gsd', 'pcm_nsc', 'hr_set', 'kk_ktb', 'cs_pdt', 'no_nynorsk', 'fr_sequoia', 'kmr_mg', 'la_ittb')          |     22     |
+| ('no_nynorsk', 'ja_gsd', 'nl_alpino', 'pcm_nsc', 'kk_ktb', 'hy_armtdp', 'kmr_mg', 'fr_spoken', 'bxr_bdt', 'ca_ancora')        |     22     |
+| ('it_isdt', 'ur_udtb', 'kmr_mg', 'no_bokmaal', 'fr_sequoia', 'pcm_nsc', 'hy_armtdp', 'ca_ancora', 'el_gdt', 'kk_ktb')         |     22     |
+| ('pcm_nsc', 'sv_pud', 'kk_ktb', 'ja_gsd', 'ca_ancora', 'tr_imst', 'en_lines', 'hy_armtdp', 'kmr_mg', 'pt_bosque')             |     22     |
+| ('en_gum', 'en_pud', 'kk_ktb', 'hr_set', 'pcm_nsc', 'id_gsd', 'kmr_mg', 'it_isdt', 'sr_set', 'ro_rrt')                        |     22     |
+| ('fa_seraji', 'nl_lassysmall', 'cs_pdt', 'kmr_mg', 'ja_modern', 'et_edt', 'grc_proiel', 'ca_ancora', 'pcm_nsc', 'got_proiel') |     22     |
+| ('id_gsd', 'es_ancora', 'da_ddt', 'ru_syntagrus', 'ja_modern', 'bg_btb', 'kk_ktb', 'kmr_mg', 'pcm_nsc', 'nl_alpino')          |     22     |
+| ('fr_gsd', 'pcm_nsc', 'el_gdt', 'cs_pdt', 'he_htb', 'ro_rrt', 'sr_set', 'kmr_mg', 'tr_imst', 'ja_modern')                     |     22     |
+| ('hy_armtdp', 'he_htb', 'pcm_nsc', 'sl_ssj', 'ja_modern', 'got_proiel', 'fa_seraji', 'ur_udtb', 'kk_ktb', 'kmr_mg')           |     22     |
+| ('hy_armtdp', 'fr_sequoia', 'pt_bosque', 'ja_gsd', 'kmr_mg', 'sl_ssj', 'no_nynorsk', 'kk_ktb', 'ga_idt', 'pcm_nsc')           |     22     |
+
+INFO: Showing outliers for XPOS tagging
+
+| Subset                                                                                                                         |  Position  |
+|--------------------------------------------------------------------------------------------------------------------------------|------------|
+| ('fa_seraji', 'hr_set', 'el_gdt', 'no_nynorsklia', 'th_pud', 'bg_btb', 'got_proiel', 'fr_sequoia', 'kmr_mg', 'hu_szeged')      |     20     |
+| ('grc_proiel', 'ur_udtb', 'ca_ancora', 'kmr_mg', 'hu_szeged', 'eu_bdt', 'hi_hdtb', 'pt_bosque', 'el_gdt', 'ja_gsd')            |     20     |
+| ('la_proiel', 'fr_sequoia', 'ur_udtb', 'th_pud', 'fr_gsd', 'hu_szeged', 'no_nynorsklia', 'en_ewt', 'eu_bdt', 'kmr_mg')         |     20     |
+| ('tr_imst', 'fr_sequoia', 'cu_proiel', 'kmr_mg', 'ur_udtb', 'no_nynorsk', 'th_pud', 'ja_modern', 'hr_set', 'hu_szeged')        |     20     |
+| ('fr_gsd', 'ru_taiga', 'ja_gsd', 'no_nynorsklia', 'hr_set', 'cu_proiel', 'he_htb', 'br_keb', 'kmr_mg', 'da_ddt')               |     20     |
+| ('no_nynorsk', 'kmr_mg', 'ja_gsd', 'fr_spoken', 'fr_sequoia', 'fi_pud', 'cs_fictree', 'sv_lines', 'fr_gsd', 'no_bokmaal')      |     20     |
+| ('br_keb', 'he_htb', 'ja_gsd', 'kmr_mg', 'es_ancora', 'el_gdt', 'fr_spoken', 'sme_giella', 'no_bokmaal', 'fa_seraji')          |     20     |
+| ('grc_proiel', 'kmr_mg', 'tr_imst', 'no_bokmaal', 'ja_modern', 'it_isdt', 'fr_spoken', 'fi_pud', 'eu_bdt', 'th_pud')           |     20     |
+| ('no_bokmaal', 'no_nynorsklia', 'da_ddt', 'nl_lassysmall', 'fr_gsd', 'fi_pud', 'kmr_mg', 'cu_proiel', 'la_ittb', 'no_nynorsk') |     20     |
+| ('kmr_mg', 'eu_bdt', 'fr_gsd', 'tr_imst', 'fr_spoken', 'sr_set', 'ja_gsd', 'el_gdt', 'da_ddt', 'ru_taiga')                     |     20     |
+
+INFO: Showing outliers for Morphological features
+
+| Subset                                                                                                                               |  Position  |
+|--------------------------------------------------------------------------------------------------------------------------------------|------------|
+| ('hy_armtdp', 'ja_gsd', 'fr_gsd', 'pt_bosque', 'bg_btb', 'fr_sequoia', 'kmr_mg', 'fa_seraji', 'th_pud', 'ru_taiga')                  |     23     |
+| ('da_ddt', 'hy_armtdp', 'got_proiel', 'ja_gsd', 'ko_kaist', 'ko_gsd', 'eu_bdt', 'kmr_mg', 'zh_gsd', 'grc_perseus')                   |     22     |
+| ('es_ancora', 'la_ittb', 'ja_modern', 'bg_btb', 'hy_armtdp', 'ro_rrt', 'fr_spoken', 'it_postwita', 'no_nynorsklia', 'nl_lassysmall') |     22     |
+| ('en_ewt', 'el_gdt', 'no_nynorsk', 'fr_sequoia', 'ja_gsd', 'vi_vtb', 'pt_bosque', 'fr_spoken', 'nl_lassysmall', 'hy_armtdp')         |     22     |
+| ('vi_vtb', 'fr_spoken', 'es_ancora', 'id_gsd', 'cs_pdt', 'no_bokmaal', 'hy_armtdp', 'fa_seraji', 'en_pud', 'he_htb')                 |     22     |
+| ('he_htb', 'pl_lfg', 'ko_gsd', 'hy_armtdp', 'en_lines', 'got_proiel', 'kmr_mg', 'th_pud', 'fr_gsd', 'ja_gsd')                        |     22     |
+| ('id_gsd', 'he_htb', 'no_bokmaal', 'en_gum', 'es_ancora', 'hi_hdtb', 'la_proiel', 'kmr_mg', 'th_pud', 'hy_armtdp')                   |     22     |
+| ('en_ewt', 'sv_lines', 'grc_perseus', 'sv_pud', 'es_ancora', 'th_pud', 'kmr_mg', 'he_htb', 'tr_imst', 'hy_armtdp')                   |     22     |
+| ('en_ewt', 'fa_seraji', 'kmr_mg', 'ja_gsd', 'th_pud', 'ur_udtb', 'hy_armtdp', 'grc_proiel', 'no_nynorsk', 'grc_perseus')             |     22     |
+| ('ja_modern', 'en_lines', 'kmr_mg', 'it_postwita', 'cs_fictree', 'hy_armtdp', 'ro_rrt', 'ja_gsd', 'ru_taiga', 'fi_tdt')              |     22     |
+
+INFO: Showing outliers for All morphological tags
+
+| Subset                                                                                                                          |  Position  |
+|---------------------------------------------------------------------------------------------------------------------------------|------------|
+| ('cs_pud', 'da_ddt', 'no_nynorsklia', 'fi_pud', 'br_keb', 'hy_armtdp', 'sr_set', 'pcm_nsc', 'ru_taiga', 'kmr_mg')               |     20     |
+| ('hy_armtdp', 'ru_taiga', 'en_gum', 'la_proiel', 'sl_sst', 'fo_oft', 'cs_cac', 'pcm_nsc', 'fr_spoken', 'kmr_mg')                |     19     |
+| ('kmr_mg', 'ja_modern', 'el_gdt', 'ur_udtb', 'bxr_bdt', 'no_nynorsklia', 'hy_armtdp', 'pcm_nsc', 'hu_szeged', 'ru_taiga')       |     19     |
+| ('ja_modern', 'th_pud', 'fi_pud', 'ja_gsd', 'sr_set', 'sv_lines', 'da_ddt', 'hy_armtdp', 'hr_set', 'kmr_mg')                    |     19     |
+| ('cu_proiel', 'pcm_nsc', 'pt_bosque', 'fr_sequoia', 'id_gsd', 'br_keb', 'hy_armtdp', 'kmr_mg', 'no_nynorsklia', 'sv_talbanken') |     19     |
+| ('grc_proiel', 'th_pud', 'fro_srcmf', 'ko_gsd', 'sr_set', 'fr_gsd', 'no_nynorsklia', 'hy_armtdp', 'pcm_nsc', 'kmr_mg')          |     19     |
+| ('hy_armtdp', 'ru_taiga', 'el_gdt', 'fr_spoken', 'pcm_nsc', 'tr_imst', 'pt_bosque', 'id_gsd', 'kmr_mg', 'sv_lines')             |     19     |
+| ('fi_pud', 'hy_armtdp', 'ca_ancora', 'ro_rrt', 'pt_bosque', 'et_edt', 'pcm_nsc', 'ur_udtb', 'fr_spoken', 'es_ancora')           |     19     |
+| ('hy_armtdp', 'no_nynorsklia', 'nl_alpino', 'br_keb', 'el_gdt', 'no_bokmaal', 'pcm_nsc', 'kmr_mg', 'sv_lines', 'cs_fictree')    |     19     |
+| ('da_ddt', 'kmr_mg', 'hy_armtdp', 'pcm_nsc', 'ru_taiga', 'id_gsd', 'ur_udtb', 'nl_lassysmall', 'hi_hdtb', 'cs_pud')             |     19     |
+
+INFO: Showing outliers for Lemmatization
+
+| Subset                                                                                                                          |  Position  |
+|---------------------------------------------------------------------------------------------------------------------------------|------------|
+| ('bg_btb', 'en_pud', 'cs_fictree', 'en_lines', 'th_pud', 'el_gdt', 'grc_proiel', 'sme_giella', 'kmr_mg', 'cu_proiel')           |     20     |
+| ('grc_perseus', 'ja_gsd', 'fr_gsd', 'cu_proiel', 'hy_armtdp', 'no_nynorsklia', 'en_lines', 'sme_giella', 'th_pud', 'nl_alpino') |     19     |
+| ('eu_bdt', 'he_htb', 'cs_fictree', 'af_afribooms', 'grc_proiel', 'hy_armtdp', 'fr_gsd', 'el_gdt', 'hr_set', 'la_ittb')          |     19     |
+| ('la_ittb', 'nl_alpino', 'he_htb', 'la_perseus', 'fro_srcmf', 'la_proiel', 'hy_armtdp', 'fa_seraji', 'ug_udt', 'cs_fictree')    |     19     |
+| ('he_htb', 'cs_pud', 'kmr_mg', 'fr_spoken', 'sr_set', 'ru_taiga', 'nl_lassysmall', 'th_pud', 'sme_giella', 'grc_perseus')       |     19     |
+| ('en_gum', 'grc_proiel', 'kmr_mg', 'pl_sz', 'cu_proiel', 'hy_armtdp', 'grc_perseus', 'tr_imst', 'sv_pud', 'en_pud')             |     19     |
+| ('grc_proiel', 'ru_taiga', 'kmr_mg', 'ur_udtb', 'fro_srcmf', 'la_perseus', 'sme_giella', 'la_ittb', 'sl_ssj', 'sl_sst')         |     19     |
+| ('ja_modern', 'en_pud', 'es_ancora', 'he_htb', 'sme_giella', 'ug_udt', 'hi_hdtb', 'kmr_mg', 'hy_armtdp', 'la_perseus')          |     19     |
+| ('grc_proiel', 'fr_gsd', 'got_proiel', 'hy_armtdp', 'da_ddt', 'ru_taiga', 'fro_srcmf', 'grc_perseus', 'en_gum', 'sl_sst')       |     19     |
+| ('no_nynorsklia', 'kmr_mg', 'en_pud', 'fa_seraji', 'la_perseus', 'cu_proiel', 'fr_spoken', 'cs_pud', 'sme_giella', 'fro_srcmf') |     19     |
+
+INFO: Showing outliers for Sentence segmentation
+
+| Subset                                                                                                                 |  Position  |
+|------------------------------------------------------------------------------------------------------------------------|------------|
+| ('en_pud', 'pl_lfg', 'el_gdt', 'sv_lines', 'fi_ftb', 'ca_ancora', 'sv_pud', 'hu_szeged', 'en_gum', 'ko_kaist')         |     24     |
+| ('en_lines', 'af_afribooms', 'es_ancora', 'pcm_nsc', 'cs_cac', 'cs_fictree', 'eu_bdt', 'th_pud', 'hr_set', 'zh_gsd')   |     24     |
+| ('vi_vtb', 'sv_pud', 'ur_udtb', 'ko_kaist', 'no_bokmaal', 'zh_gsd', 'cs_cac', 'en_gum', 'af_afribooms', 'bg_btb')      |     24     |
+| ('tr_imst', 'zh_gsd', 'ko_gsd', 'nl_alpino', 'no_bokmaal', 'th_pud', 'sv_pud', 'hr_set', 'no_nynorsk', 'pt_bosque')    |     24     |
+| ('ko_kaist', 'hr_set', 'zh_gsd', 'ur_udtb', 'fr_gsd', 'sv_talbanken', 'pl_sz', 'sk_snk', 'sv_pud', 'sv_lines')         |     24     |
+| ('la_proiel', 'hi_hdtb', 'hu_szeged', 'sv_pud', 'fi_ftb', 'cs_cac', 'la_ittb', 'ca_ancora', 'cs_fictree', 'de_gsd')    |     24     |
+| ('fa_seraji', 'hi_hdtb', 'tr_imst', 'sv_pud', 'fr_gsd', 'cs_pdt', 'en_ewt', 'zh_gsd', 'pl_sz', 'cs_fictree')           |     24     |
+| ('ca_ancora', 'pl_sz', 'en_lines', 'af_afribooms', 'pl_lfg', 'nl_alpino', 'ur_udtb', 'got_proiel', 'en_gum', 'zh_gsd') |     24     |
+| ('sv_talbanken', 'kmr_mg', 'pcm_nsc', 'sv_pud', 'grc_perseus', 'es_ancora', 'de_gsd', 'ko_kaist', 'pl_sz', 'zh_gsd')   |     24     |
+| ('sv_pud', 'ko_kaist', 'hi_hdtb', 'la_proiel', 'fi_ftb', 'eu_bdt', 'ur_udtb', 'la_ittb', 'pl_sz', 'fr_gsd')            |     24     |
+
+INFO: Showing outliers for Word segmentation
+
+| Subset                                                                                                                     |  Position  |
+|----------------------------------------------------------------------------------------------------------------------------|------------|
+| ('hu_szeged', 'cs_pdt', 'la_proiel', 'ja_gsd', 'bg_btb', 'he_htb', 'fr_spoken', 'ko_kaist', 'af_afribooms', 'sl_sst')      |     25     |
+| ('cs_pdt', 'grc_proiel', 'sk_snk', 'bg_btb', 'af_afribooms', 'fr_spoken', 'he_htb', 'hi_hdtb', 'sr_set', 'en_gum')         |     25     |
+| ('ur_udtb', 'da_ddt', 'sv_pud', 'no_nynorsklia', 'sk_snk', 'en_lines', 'la_ittb', 'he_htb', 'sv_talbanken', 'eu_bdt')      |     24     |
+| ('ja_gsd', 'sme_giella', 'ko_kaist', 'af_afribooms', 'sk_snk', 'sv_pud', 'it_isdt', 'he_htb', 'cs_pdt', 'ko_gsd')          |     24     |
+| ('lv_lvtb', 'sr_set', 'bg_btb', 'got_proiel', 'fi_ftb', 'ro_rrt', 'sk_snk', 'ja_gsd', 'grc_proiel', 'pt_bosque')           |     24     |
+| ('pl_sz', 'sl_sst', 'hi_hdtb', 'sv_pud', 'ja_gsd', 'ur_udtb', 'en_ewt', 'no_bokmaal', 'tr_imst', 'sv_talbanken')           |     24     |
+| ('fi_tdt', 'he_htb', 'ga_idt', 'sl_ssj', 'fi_ftb', 'hu_szeged', 'ro_rrt', 'en_gum', 'ur_udtb', 'fa_seraji')                |     24     |
+| ('he_htb', 'de_gsd', 'no_nynorsklia', 'pl_lfg', 'la_proiel', 'cs_pdt', 'ur_udtb', 'sl_sst', 'sv_pud', 'hr_set')            |     24     |
+| ('fro_srcmf', 'fr_sequoia', 'hu_szeged', 'sv_pud', 'sl_sst', 'no_bokmaal', 'ja_gsd', 'tr_imst', 'cs_pdt', 'nl_lassysmall') |     24     |
+| ('la_ittb', 'it_postwita', 'af_afribooms', 'sl_ssj', 'got_proiel', 'es_ancora', 'sl_sst', 'en_gum', 'fi_ftb', 'bg_btb')    |     24     |
+
+INFO: Showing outliers for Tokenization
+
+| Subset                                                                                                                         |  Position  |
+|--------------------------------------------------------------------------------------------------------------------------------|------------|
+| ('sl_sst', 'pt_bosque', 'fi_ftb', 'pl_sz', 'ja_gsd', 'bg_btb', 'la_ittb', 'sk_snk', 'fr_gsd', 'cs_cac')                        |     25     |
+| ('pl_sz', 'fro_srcmf', 'es_ancora', 'en_gum', 'grc_proiel', 'bg_btb', 'ja_gsd', 'af_afribooms', 'en_lines', 'ko_kaist')        |     25     |
+| ('bg_btb', 'grc_perseus', 'ja_gsd', 'la_ittb', 'sv_lines', 'af_afribooms', 'id_gsd', 'ca_ancora', 'fa_seraji', 'fi_tdt')       |     24     |
+| ('lv_lvtb', 'sr_set', 'bg_btb', 'got_proiel', 'fi_ftb', 'ro_rrt', 'sk_snk', 'ja_gsd', 'grc_proiel', 'pt_bosque')               |     24     |
+| ('fi_tdt', 'en_gum', 'pl_lfg', 'sl_ssj', 'ur_udtb', 'nl_lassysmall', 'hi_hdtb', 'ru_syntagrus', 'ja_gsd', 'pt_bosque')         |     24     |
+| ('fro_srcmf', 'fr_sequoia', 'hu_szeged', 'sv_pud', 'sl_sst', 'no_bokmaal', 'ja_gsd', 'tr_imst', 'cs_pdt', 'nl_lassysmall')     |     24     |
+| ('la_proiel', 'hi_hdtb', 'hu_szeged', 'sv_pud', 'fi_ftb', 'cs_cac', 'la_ittb', 'ca_ancora', 'cs_fictree', 'de_gsd')            |     24     |
+| ('es_ancora', 'cs_pdt', 'sk_snk', 'ko_kaist', 'la_proiel', 'en_gum', 'ca_ancora', 'hu_szeged', 'af_afribooms', 'la_ittb')      |     24     |
+| ('sl_ssj', 'hi_hdtb', 'ja_gsd', 'la_perseus', 'ko_gsd', 'pl_sz', 'pt_bosque', 'ko_kaist', 'en_lines', 'sv_lines')              |     24     |
+| ('sl_ssj', 'fr_sequoia', 'la_perseus', 'sr_set', 'got_proiel', 'fro_srcmf', 'la_proiel', 'lv_lvtb', 'nl_lassysmall', 'ro_rrt') |     24     |

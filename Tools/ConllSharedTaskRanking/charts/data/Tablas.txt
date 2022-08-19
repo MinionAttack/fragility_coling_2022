@@ -1,0 +1,915 @@
+INFO: Processing parameters
+INFO: Calculating metrics on set individual
+INFO: Loading language subsets
+INFO: Loading 1000000 subset(s) of size 10 from disk
+INFO: Reading 10-1000000.csv file
+INFO: Loading data
+INFO: Calculation of parser performance metrics for Bilexical dependency score (BLEX)
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| TurkuNLP            |     7     |     1     |  1.51  |   1.00   |         0.78         |
+| HIT-SCIR            |     6     |     1     |  2.37  |   2.00   |         1.13         |
+| ICS PAS             |    13     |     1     |  3.83  |   4.00   |         1.37         |
+| UDPipe Future       |     8     |     1     |  3.62  |   4.00   |         0.98         |
+| Stanford            |    15     |     1     |  4.21  |   4.00   |         1.75         |
+| LATTICE             |    11     |     1     |  6.23  |   6.00   |         1.02         |
+| CEA LIST            |    12     |     2     |  6.58  |   6.00   |         0.99         |
+| ParisNLP            |    16     |     5     |  8.87  |   9.00   |         0.91         |
+| AntNLP              |    14     |     3     |  8.59  |   9.00   |         0.95         |
+| SLT-Interactions    |    20     |     2     | 10.09  |  10.00   |         2.25         |
+| LeisureX            |    18     |     7     | 11.54  |  11.00   |         1.21         |
+| UniMelb             |    16     |     7     | 11.27  |  11.00   |         0.82         |
+| BASELINE UDPipe 1.2 |    20     |    10     | 14.53  |  14.00   |         1.09         |
+| NLP-Cube            |    22     |     6     | 15.07  |  14.00   |         2.81         |
+| Phoenix             |    20     |    10     | 14.89  |  15.00   |         1.15         |
+| KParse              |    21     |     9     | 15.54  |  16.00   |         1.95         |
+| CUNI x-ling         |    21     |     4     | 17.43  |  18.00   |         1.60         |
+| BOUN                |    22     |    12     | 18.22  |  18.00   |         1.33         |
+| Fudan               |    22     |     9     | 17.34  |  18.00   |         1.94         |
+| iParse              |    25     |     9     | 19.12  |  20.00   |         3.19         |
+| HUJI                |    25     |    15     | 20.45  |  21.00   |         1.02         |
+| ArmParser           |    25     |    19     | 22.10  |  22.00   |         0.95         |
+| Uppsala             |    25     |    19     | 23.29  |  23.00   |         0.66         |
+| IBM NY              |    25     |    16     | 23.44  |  24.00   |         0.82         |
+| ONLP lab            |    25     |    22     | 24.88  |  25.00   |         0.37         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   14.01   |   0.00    |  1.71  |   0.00   |         3.25         |
+| ONLP lab            |   49.84   |   9.20    | 28.29  |  28.25   |         4.80         |
+| Uppsala             |   53.22   |   11.68   | 32.10  |  32.03   |         4.79         |
+| IBM NY              |   60.40   |   11.08   | 32.56  |  32.42   |         5.43         |
+| ArmParser           |   61.32   |   5.64    | 39.20  |  39.45   |         6.65         |
+| HUJI                |   72.48   |   10.65   | 48.07  |  48.35   |         7.70         |
+| iParse              |   78.14   |   5.37    | 48.72  |  48.98   |         9.30         |
+| BOUN                |   72.98   |   19.23   | 53.46  |  53.79   |         6.37         |
+| CUNI x-ling         |   71.86   |   25.13   | 54.08  |  54.36   |         5.59         |
+| Fudan               |   73.82   |   19.68   | 54.04  |  54.39   |         6.21         |
+| KParse              |   73.91   |   20.70   | 55.27  |  55.63   |         6.36         |
+| NLP-Cube            |   77.87   |   20.09   | 55.54  |  55.85   |         7.11         |
+| Phoenix             |   74.92   |   21.80   | 55.72  |  56.07   |         6.29         |
+| BASELINE UDPipe 1.2 |   74.95   |   21.13   | 55.81  |  56.16   |         6.31         |
+| LeisureX            |   79.71   |   21.22   | 58.44  |  58.79   |         6.77         |
+| UniMelb             |   78.53   |   21.57   | 58.68  |  59.07   |         6.68         |
+| SLT-Interactions    |   79.73   |   19.55   | 59.69  |  60.10   |         6.93         |
+| ParisNLP            |   81.30   |   22.47   | 60.71  |  61.15   |         6.94         |
+| AntNLP              |   80.54   |   23.59   | 60.92  |  61.36   |         6.74         |
+| CEA LIST            |   82.14   |   24.41   | 62.25  |  62.64   |         6.74         |
+| LATTICE             |   81.28   |   26.10   | 62.40  |  62.85   |         6.65         |
+| Stanford            |   83.48   |   22.37   | 64.06  |  64.50   |         7.31         |
+| UDPipe Future       |   84.22   |   24.37   | 64.51  |  64.97   |         7.08         |
+| ICS PAS             |   83.89   |   24.35   | 64.45  |  64.99   |         7.23         |
+| HIT-SCIR            |   83.74   |   27.15   | 65.34  |  65.85   |         6.83         |
+| TurkuNLP            |   84.87   |   26.54   | 66.10  |  66.58   |         6.93         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for Labeled Attachment Score (LAS)
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| HIT-SCIR            |     6     |     1     |  1.14  |   1.00   |         0.54         |
+| UDPipe Future       |    12     |     1     |  4.38  |   4.00   |         1.65         |
+| TurkuNLP            |    12     |     1     |  3.97  |   4.00   |         1.53         |
+| LATTICE             |    13     |     1     |  4.99  |   5.00   |         2.27         |
+| ICS PAS             |    13     |     2     |  4.71  |   5.00   |         2.01         |
+| CEA LIST            |    13     |     1     |  6.12  |   6.00   |         2.28         |
+| Stanford            |    21     |     1     |  6.30  |   6.00   |         3.47         |
+| Uppsala             |    13     |     1     |  6.62  |   7.00   |         2.36         |
+| NLP-Cube            |    20     |     2     | 10.02  |  10.00   |         1.79         |
+| AntNLP              |    18     |     3     |  9.94  |  10.00   |         1.82         |
+| ParisNLP            |    20     |     4     | 10.39  |  11.00   |         1.62         |
+| SLT-Interactions    |    23     |     2     | 11.28  |  11.00   |         3.91         |
+| IBM NY              |    20     |     2     | 13.05  |  13.00   |         1.64         |
+| LeisureX            |    20     |     8     | 14.36  |  14.00   |         1.81         |
+| UniMelb             |    19     |     8     | 13.80  |  14.00   |         1.13         |
+| KParse              |    22     |     9     | 16.78  |  17.00   |         1.35         |
+| Fudan               |    22     |    10     | 17.16  |  17.00   |         1.60         |
+| BASELINE UDPipe 1.2 |    22     |    13     | 18.08  |  18.00   |         1.11         |
+| Phoenix             |    22     |    13     | 18.69  |  19.00   |         1.07         |
+| CUNI x-ling         |    22     |     2     | 19.24  |  20.00   |         2.21         |
+| BOUN                |    23     |    16     | 20.81  |  21.00   |         0.79         |
+| ONLP lab            |    25     |    20     | 22.57  |  23.00   |         0.62         |
+| iParse              |    25     |     9     | 22.36  |  23.00   |         2.76         |
+| HUJI                |    25     |    21     | 23.63  |  24.00   |         0.89         |
+| ArmParser           |    25     |    22     | 24.62  |  25.00   |         0.59         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   16.03   |   0.00    |  1.96  |   0.00   |         3.70         |
+| ArmParser           |   68.45   |   9.11    | 47.03  |  47.49   |         7.50         |
+| HUJI                |   76.64   |   13.45   | 53.71  |  54.08   |         7.74         |
+| iParse              |   85.31   |   7.05    | 55.84  |  56.05   |        10.31         |
+| ONLP lab            |   76.79   |   27.62   | 58.37  |  58.66   |         5.92         |
+| BOUN                |   81.57   |   28.72   | 63.55  |  63.94   |         6.34         |
+| CUNI x-ling         |   80.60   |   37.08   | 64.88  |  65.18   |         5.23         |
+| Phoenix             |   83.21   |   31.86   | 65.62  |  66.04   |         6.21         |
+| BASELINE UDPipe 1.2 |   83.31   |   31.39   | 65.81  |  66.23   |         6.19         |
+| Fudan               |   84.10   |   30.30   | 66.36  |  66.81   |         6.45         |
+| KParse              |   82.93   |   32.66   | 66.59  |  67.03   |         6.17         |
+| LeisureX            |   87.13   |   31.52   | 68.33  |  68.75   |         6.60         |
+| UniMelb             |   86.62   |   31.72   | 68.67  |  69.11   |         6.53         |
+| IBM NY              |   85.99   |   33.19   | 69.12  |  69.57   |         6.19         |
+| SLT-Interactions    |   87.82   |   30.15   | 69.99  |  70.52   |         6.93         |
+| ParisNLP            |   88.23   |   32.94   | 70.65  |  71.18   |         6.80         |
+| NLP-Cube            |   88.72   |   31.84   | 70.84  |  71.34   |         6.92         |
+| AntNLP              |   88.06   |   34.55   | 70.91  |  71.44   |         6.57         |
+| Stanford            |   90.04   |   31.63   | 72.30  |  72.78   |         7.05         |
+| Uppsala             |   88.14   |   38.74   | 72.38  |  72.83   |         5.90         |
+| CEA LIST            |   89.60   |   36.11   | 72.57  |  73.04   |         6.40         |
+| LATTICE             |   88.92   |   38.51   | 73.03  |  73.56   |         6.25         |
+| ICS PAS             |   89.81   |   35.83   | 73.03  |  73.59   |         6.62         |
+| UDPipe Future       |   89.56   |   37.36   | 73.12  |  73.65   |         6.46         |
+| TurkuNLP            |   89.88   |   37.23   | 73.30  |  73.79   |         6.35         |
+| HIT-SCIR            |   90.87   |   41.06   | 75.85  |  76.43   |         6.35         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for UAS
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| HIT-SCIR            |     8     |     1     |  1.27  |   1.00   |         0.90         |
+| LATTICE             |    12     |     1     |  3.31  |   3.00   |         1.88         |
+| ICS PAS             |    13     |     1     |  4.19  |   4.00   |         1.74         |
+| TurkuNLP            |    13     |     1     |  4.80  |   5.00   |         1.71         |
+| UDPipe Future       |    12     |     2     |  5.18  |   5.00   |         1.52         |
+| Uppsala             |    14     |     1     |  6.43  |   6.00   |         2.68         |
+| CEA LIST            |    14     |     1     |  6.70  |   7.00   |         2.35         |
+| Stanford            |    23     |     1     |  7.76  |   8.00   |         4.16         |
+| NLP-Cube            |    22     |     2     |  9.65  |   9.00   |         2.52         |
+| ParisNLP            |    20     |     3     | 10.35  |  10.00   |         1.67         |
+| AntNLP              |    19     |     2     |  9.50  |  10.00   |         2.17         |
+| SLT-Interactions    |    23     |     1     | 11.14  |  11.00   |         3.61         |
+| IBM NY              |    19     |     3     | 12.80  |  13.00   |         1.84         |
+| LeisureX            |    21     |     8     | 14.06  |  14.00   |         1.57         |
+| UniMelb             |    18     |     8     | 13.89  |  14.00   |         1.20         |
+| KParse              |    22     |     7     | 16.27  |  16.00   |         1.23         |
+| Fudan               |    23     |    10     | 17.38  |  17.00   |         1.86         |
+| BASELINE UDPipe 1.2 |    23     |    13     | 18.12  |  18.00   |         0.93         |
+| Phoenix             |    23     |    14     | 19.21  |  19.00   |         1.03         |
+| CUNI x-ling         |    23     |     3     | 19.47  |  20.00   |         2.36         |
+| BOUN                |    23     |    16     | 20.98  |  21.00   |         1.12         |
+| ONLP lab            |    24     |    11     | 21.36  |  22.00   |         1.03         |
+| iParse              |    25     |     9     | 22.87  |  24.00   |         2.67         |
+| HUJI                |    25     |    22     | 23.64  |  24.00   |         0.66         |
+| ArmParser           |    25     |    23     | 24.67  |  25.00   |         0.56         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   16.51   |   0.00    |  2.02  |   0.00   |         3.82         |
+| ArmParser           |   72.52   |   10.15   | 50.87  |  51.34   |         7.86         |
+| iParse              |   88.76   |   8.76    | 60.05  |  60.27   |        10.51         |
+| HUJI                |   80.82   |   20.73   | 59.94  |  60.34   |         7.25         |
+| ONLP lab            |   85.49   |   40.73   | 69.56  |  69.93   |         5.39         |
+| BOUN                |   85.97   |   39.84   | 70.00  |  70.40   |         5.61         |
+| CUNI x-ling         |   84.66   |   46.11   | 70.88  |  71.16   |         4.62         |
+| Phoenix             |   86.81   |   41.01   | 71.28  |  71.70   |         5.61         |
+| BASELINE UDPipe 1.2 |   86.89   |   42.13   | 71.65  |  72.06   |         5.46         |
+| Fudan               |   87.62   |   39.40   | 72.14  |  72.61   |         5.82         |
+| KParse              |   86.85   |   43.72   | 72.75  |  73.20   |         5.44         |
+| LeisureX            |   90.13   |   42.25   | 74.04  |  74.47   |         5.80         |
+| UniMelb             |   89.61   |   42.56   | 74.17  |  74.61   |         5.72         |
+| IBM NY              |   89.30   |   43.41   | 74.73  |  75.18   |         5.42         |
+| SLT-Interactions    |   90.38   |   41.38   | 75.47  |  75.96   |         5.92         |
+| ParisNLP            |   91.03   |   42.78   | 75.97  |  76.48   |         5.96         |
+| NLP-Cube            |   91.46   |   41.68   | 76.17  |  76.71   |         6.24         |
+| AntNLP              |   91.15   |   44.78   | 76.32  |  76.85   |         5.84         |
+| Stanford            |   92.44   |   39.38   | 76.79  |  77.26   |         6.43         |
+| CEA LIST            |   92.14   |   46.16   | 77.40  |  77.85   |         5.64         |
+| Uppsala             |   90.82   |   49.60   | 77.54  |  77.95   |         5.03         |
+| UDPipe Future       |   92.04   |   47.17   | 77.91  |  78.43   |         5.66         |
+| TurkuNLP            |   92.41   |   46.83   | 77.98  |  78.45   |         5.63         |
+| ICS PAS             |   92.42   |   46.27   | 78.23  |  78.76   |         5.75         |
+| LATTICE             |   92.13   |   47.72   | 78.72  |  79.27   |         5.50         |
+| HIT-SCIR            |   93.13   |   50.98   | 80.52  |  81.06   |         5.45         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for Morphology-Aware Labeled Attachment Score (MLAS)
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| UDPipe Future       |     8     |     1     |  2.10  |   2.00   |         0.94         |
+| Stanford            |    18     |     1     |  2.89  |   2.00   |         1.99         |
+| TurkuNLP            |    11     |     1     |  2.84  |   3.00   |         1.25         |
+| HIT-SCIR            |    10     |     1     |  4.98  |   5.00   |         1.82         |
+| CEA LIST            |    11     |     1     |  5.04  |   5.00   |         1.25         |
+| ICS PAS             |    15     |     1     |  4.33  |   5.00   |         1.94         |
+| Uppsala             |    12     |     1     |  6.03  |   6.00   |         1.38         |
+| NLP-Cube            |    18     |     2     |  8.59  |   8.00   |         1.15         |
+| LATTICE             |    14     |     1     |  8.70  |   9.00   |         0.97         |
+| AntNLP              |    18     |     5     | 10.56  |  10.00   |         0.92         |
+| ParisNLP            |    19     |     6     | 10.72  |  11.00   |         1.04         |
+| SLT-Interactions    |    23     |     5     | 12.96  |  12.00   |         3.20         |
+| LeisureX            |    22     |     8     | 13.92  |  13.00   |         1.93         |
+| UniMelb             |    20     |     7     | 14.12  |  14.00   |         1.27         |
+| KParse              |    21     |     8     | 15.00  |  15.00   |         1.70         |
+| Fudan               |    23     |     8     | 15.92  |  16.00   |         1.97         |
+| BASELINE UDPipe 1.2 |    21     |    10     | 16.52  |  17.00   |         1.21         |
+| Phoenix             |    21     |    10     | 17.30  |  17.00   |         1.30         |
+| BOUN                |    23     |    14     | 19.55  |  20.00   |         0.98         |
+| CUNI x-ling         |    23     |     7     | 19.51  |  20.00   |         1.07         |
+| iParse              |    25     |     9     | 20.79  |  22.00   |         3.80         |
+| ONLP lab            |    25     |    19     | 22.04  |  22.00   |         0.80         |
+| HUJI                |    25     |    17     | 22.39  |  22.00   |         1.25         |
+| IBM NY              |    25     |    13     | 23.65  |  24.00   |         1.02         |
+| ArmParser           |    25     |    20     | 24.55  |  25.00   |         0.70         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   13.77   |   0.00    |  1.68  |   0.00   |         3.20         |
+| ArmParser           |   58.05   |   4.37    | 36.30  |  36.52   |         6.33         |
+| IBM NY              |   63.90   |   11.50   | 40.63  |  40.77   |         6.18         |
+| HUJI                |   69.25   |   8.18    | 44.62  |  44.87   |         7.48         |
+| iParse              |   75.95   |   5.13    | 45.66  |  45.89   |         8.93         |
+| ONLP lab            |   66.37   |   16.22   | 46.11  |  46.36   |         6.09         |
+| CUNI x-ling         |   69.09   |   19.47   | 50.36  |  50.66   |         6.00         |
+| BOUN                |   71.24   |   16.15   | 50.41  |  50.72   |         6.57         |
+| Phoenix             |   72.58   |   17.77   | 52.27  |  52.62   |         6.52         |
+| BASELINE UDPipe 1.2 |   72.44   |   17.93   | 52.44  |  52.78   |         6.48         |
+| Fudan               |   73.89   |   17.90   | 52.70  |  53.03   |         6.67         |
+| KParse              |   73.19   |   18.07   | 53.27  |  53.62   |         6.55         |
+| UniMelb             |   74.86   |   17.21   | 53.64  |  53.97   |         6.76         |
+| LeisureX            |   75.94   |   17.91   | 53.71  |  54.04   |         6.82         |
+| SLT-Interactions    |   76.20   |   13.67   | 54.53  |  54.89   |         7.15         |
+| ParisNLP            |   77.12   |   18.02   | 55.75  |  56.14   |         7.01         |
+| AntNLP              |   76.98   |   18.34   | 55.93  |  56.31   |         6.91         |
+| LATTICE             |   78.08   |   20.95   | 57.02  |  57.41   |         6.86         |
+| NLP-Cube            |   78.73   |   17.89   | 57.34  |  57.73   |         7.24         |
+| Uppsala             |   79.58   |   20.45   | 59.22  |  59.62   |         6.96         |
+| HIT-SCIR            |   80.95   |   19.71   | 59.80  |  60.26   |         7.17         |
+| CEA LIST            |   80.77   |   19.13   | 59.93  |  60.34   |         7.34         |
+| ICS PAS             |   81.08   |   19.74   | 60.26  |  60.73   |         7.37         |
+| Stanford            |   81.77   |   17.60   | 60.94  |  61.37   |         7.62         |
+| TurkuNLP            |   81.16   |   20.11   | 61.00  |  61.47   |         7.28         |
+| UDPipe Future       |   81.72   |   20.22   | 61.26  |  61.73   |         7.38         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for CLAS
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| HIT-SCIR            |     6     |     1     |  1.05  |   1.00   |         0.27         |
+| UDPipe Future       |    12     |     1     |  4.21  |   4.00   |         1.58         |
+| TurkuNLP            |    11     |     1     |  3.84  |   4.00   |         1.38         |
+| LATTICE             |    13     |     1     |  5.39  |   5.00   |         2.24         |
+| ICS PAS             |    13     |     2     |  4.75  |   5.00   |         1.99         |
+| Stanford            |    20     |     1     |  5.42  |   5.00   |         3.04         |
+| CEA LIST            |    13     |     1     |  5.86  |   6.00   |         2.15         |
+| Uppsala             |    14     |     1     |  7.31  |   7.00   |         2.11         |
+| NLP-Cube            |    18     |     3     |  9.98  |  10.00   |         1.55         |
+| AntNLP              |    17     |     3     | 10.03  |  10.00   |         1.66         |
+| ParisNLP            |    20     |     4     | 10.50  |  11.00   |         1.49         |
+| SLT-Interactions    |    23     |     1     | 10.69  |  11.00   |         3.40         |
+| IBM NY              |    20     |     3     | 13.45  |  13.00   |         1.34         |
+| LeisureX            |    20     |     9     | 14.15  |  14.00   |         1.30         |
+| UniMelb             |    20     |     8     | 13.83  |  14.00   |         1.02         |
+| Fudan               |    23     |    12     | 17.21  |  17.00   |         1.48         |
+| KParse              |    22     |    11     | 17.06  |  17.00   |         1.35         |
+| BASELINE UDPipe 1.2 |    22     |    13     | 18.03  |  18.00   |         1.02         |
+| Phoenix             |    22     |    13     | 18.51  |  19.00   |         1.05         |
+| CUNI x-ling         |    24     |     4     | 20.02  |  20.00   |         1.61         |
+| BOUN                |    24     |    16     | 20.87  |  21.00   |         0.87         |
+| iParse              |    25     |    10     | 22.05  |  23.00   |         3.00         |
+| ONLP lab            |    25     |    20     | 22.98  |  23.00   |         0.70         |
+| HUJI                |    25     |    19     | 23.08  |  23.00   |         1.09         |
+| ArmParser           |    25     |    22     | 24.72  |  25.00   |         0.52         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   14.35   |   0.00    |  1.75  |   0.00   |         3.33         |
+| ArmParser           |   64.72   |   8.08    | 43.27  |  43.63   |         7.04         |
+| HUJI                |   76.55   |   12.96   | 52.02  |  52.33   |         7.95         |
+| iParse              |   81.80   |   6.75    | 52.43  |  52.70   |         9.82         |
+| ONLP lab            |   71.80   |   22.39   | 52.91  |  53.19   |         5.97         |
+| BOUN                |   76.78   |   24.56   | 58.20  |  58.56   |         6.32         |
+| CUNI x-ling         |   75.92   |   30.25   | 59.11  |  59.40   |         5.34         |
+| Phoenix             |   79.22   |   27.74   | 60.63  |  61.01   |         6.20         |
+| BASELINE UDPipe 1.2 |   79.31   |   27.36   | 60.79  |  61.17   |         6.21         |
+| Fudan               |   79.85   |   26.33   | 61.34  |  61.75   |         6.46         |
+| KParse              |   78.75   |   27.88   | 61.43  |  61.84   |         6.23         |
+| LeisureX            |   83.57   |   27.50   | 63.86  |  64.25   |         6.69         |
+| UniMelb             |   83.41   |   27.79   | 64.14  |  64.55   |         6.64         |
+| IBM NY              |   82.59   |   28.48   | 64.45  |  64.86   |         6.34         |
+| SLT-Interactions    |   84.81   |   27.49   | 66.11  |  66.59   |         6.92         |
+| ParisNLP            |   85.18   |   28.93   | 66.47  |  66.95   |         6.94         |
+| NLP-Cube            |   86.05   |   28.05   | 66.75  |  67.21   |         7.06         |
+| AntNLP              |   84.96   |   30.87   | 66.73  |  67.22   |         6.67         |
+| Uppsala             |   85.15   |   34.30   | 68.05  |  68.48   |         6.18         |
+| CEA LIST            |   86.96   |   32.61   | 68.67  |  69.11   |         6.61         |
+| Stanford            |   87.36   |   28.88   | 68.75  |  69.21   |         7.19         |
+| LATTICE             |   85.99   |   33.56   | 68.87  |  69.36   |         6.44         |
+| ICS PAS             |   87.16   |   31.77   | 69.08  |  69.60   |         6.85         |
+| UDPipe Future       |   86.94   |   33.08   | 69.26  |  69.76   |         6.67         |
+| TurkuNLP            |   87.26   |   33.17   | 69.41  |  69.88   |         6.61         |
+| HIT-SCIR            |   88.61   |   36.89   | 72.37  |  72.94   |         6.63         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for UPOS tagging
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| HIT-SCIR            |    23     |     1     |  2.77  |   2.00   |         2.46         |
+| Uppsala             |    23     |     1     |  2.65  |   2.00   |         2.14         |
+| TurkuNLP            |    24     |     1     |  5.67  |   5.00   |         2.52         |
+| UDPipe Future       |    22     |     1     |  5.18  |   5.00   |         2.23         |
+| LATTICE             |    23     |     1     |  5.58  |   5.00   |         2.69         |
+| CEA LIST            |    13     |     1     |  5.31  |   5.00   |         2.48         |
+| Stanford            |    25     |     1     |  7.28  |   7.00   |         4.53         |
+| ICS PAS             |    25     |     1     |  9.10  |   8.00   |         4.19         |
+| NLP-Cube            |    24     |     2     |  9.15  |   9.00   |         2.75         |
+| SLT-Interactions    |    25     |     1     | 12.05  |  10.00   |         7.59         |
+| CUNI x-ling         |    19     |     1     | 10.42  |  11.00   |         4.95         |
+| UniMelb             |    24     |     4     | 11.65  |  11.00   |         1.82         |
+| IBM NY              |    25     |     1     | 12.50  |  12.00   |         4.93         |
+| KParse              |    24     |     4     | 14.27  |  13.00   |         4.07         |
+| AntNLP              |    17     |     8     | 14.56  |  15.00   |         1.22         |
+| BASELINE UDPipe 1.2 |    18     |     9     | 15.56  |  16.00   |         1.22         |
+| Fudan               |    24     |    10     | 17.83  |  17.00   |         2.11         |
+| ParisNLP            |    24     |     8     | 18.15  |  19.00   |         3.40         |
+| HUJI                |    25     |    11     | 19.36  |  19.00   |         2.64         |
+| Phoenix             |    24     |     6     | 17.73  |  19.00   |         4.11         |
+| LeisureX            |    24     |    11     | 20.05  |  20.00   |         1.86         |
+| ONLP lab            |    23     |    11     | 19.84  |  20.00   |         1.69         |
+| BOUN                |    25     |    10     | 19.74  |  20.00   |         2.67         |
+| ArmParser           |    25     |    19     | 24.41  |  24.00   |         0.64         |
+| iParse              |    25     |    12     | 24.22  |  24.00   |         1.12         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   18.49   |   0.00    |  2.26  |   0.00   |         4.26         |
+| iParse              |   96.69   |   12.49   | 71.39  |  72.58   |        11.36         |
+| ArmParser           |   96.15   |   16.30   | 73.02  |  73.60   |        10.94         |
+| HUJI                |   96.89   |   46.62   | 85.07  |  85.73   |         6.49         |
+| LeisureX            |   96.75   |   58.66   | 87.16  |  87.86   |         5.11         |
+| BOUN                |   96.86   |   58.67   | 87.20  |  87.92   |         5.15         |
+| Fudan               |   96.75   |   58.68   | 87.25  |  87.96   |         5.11         |
+| AntNLP              |   96.89   |   58.68   | 87.33  |  88.04   |         5.12         |
+| BASELINE UDPipe 1.2 |   96.89   |   58.68   | 87.33  |  88.04   |         5.12         |
+| ONLP lab            |   96.89   |   58.09   | 87.26  |  88.04   |         5.22         |
+| ParisNLP            |   96.89   |   58.68   | 87.36  |  88.07   |         5.12         |
+| Phoenix             |   96.89   |   60.07   | 87.50  |  88.23   |         5.01         |
+| KParse              |   97.18   |   58.62   | 87.63  |  88.33   |         5.18         |
+| UniMelb             |   97.39   |   58.51   | 87.91  |  88.63   |         5.17         |
+| IBM NY              |   97.05   |   60.55   | 88.03  |  88.76   |         4.92         |
+| SLT-Interactions    |   97.92   |   55.29   | 88.13  |  88.92   |         5.50         |
+| CUNI x-ling         |   96.89   |   66.91   | 88.69  |  89.08   |         3.93         |
+| NLP-Cube            |   97.76   |   59.27   | 88.51  |  89.22   |         5.22         |
+| ICS PAS             |   97.95   |   60.14   | 88.71  |  89.55   |         5.25         |
+| Stanford            |   98.03   |   59.12   | 89.01  |  89.88   |         5.27         |
+| UDPipe Future       |   98.20   |   60.92   | 89.37  |  90.16   |         5.16         |
+| TurkuNLP            |   97.88   |   62.62   | 89.81  |  90.34   |         4.54         |
+| LATTICE             |   98.00   |   61.51   | 89.54  |  90.38   |         4.90         |
+| CEA LIST            |   97.98   |   64.56   | 89.98  |  90.44   |         4.20         |
+| HIT-SCIR            |   98.30   |   62.82   | 90.20  |  91.11   |         4.98         |
+| Uppsala             |   98.08   |   68.10   | 90.92  |  91.39   |         3.80         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for XPOS tagging
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| UDPipe Future       |    20     |     1     |  3.25  |   2.00   |         4.24         |
+| TurkuNLP            |    22     |     1     |  4.47  |   3.00   |         4.67         |
+| NLP-Cube            |    22     |     1     |  4.33  |   4.00   |         3.41         |
+| Stanford            |    23     |     1     |  6.76  |   4.00   |         6.52         |
+| AntNLP              |     9     |     1     |  5.49  |   6.00   |         1.28         |
+| BASELINE UDPipe 1.2 |    10     |     2     |  6.49  |   7.00   |         1.28         |
+| CUNI x-ling         |    22     |     1     | 10.86  |   9.00   |         5.35         |
+| CEA LIST            |    22     |     3     | 12.21  |   9.00   |         4.98         |
+| Fudan               |    24     |     3     | 12.69  |  10.00   |         5.28         |
+| HUJI                |    24     |     3     | 11.90  |  11.00   |         4.81         |
+| ICS PAS             |    15     |     3     | 10.30  |  11.00   |         2.01         |
+| KParse              |    16     |     4     | 11.30  |  12.00   |         2.01         |
+| LATTICE             |    17     |     5     | 12.30  |  13.00   |         2.01         |
+| LeisureX            |    22     |     1     | 13.85  |  14.00   |         4.04         |
+| ParisNLP            |    20     |     6     | 14.38  |  15.00   |         2.35         |
+| Phoenix             |    20     |     1     | 13.46  |  15.00   |         5.16         |
+| BOUN                |    22     |     3     | 13.54  |  15.00   |         5.28         |
+| SLT-Interactions    |    23     |     1     | 14.69  |  16.00   |         4.23         |
+| UniMelb             |    21     |     6     | 16.21  |  17.00   |         2.40         |
+| HIT-SCIR            |    24     |     1     | 12.53  |  18.00   |         8.62         |
+| iParse              |    24     |    10     | 20.54  |  21.00   |         1.77         |
+| ArmParser           |    24     |    15     | 21.52  |  22.00   |         0.88         |
+| IBM NY              |    26     |     1     | 23.31  |  23.00   |         0.60         |
+| Uppsala             |    26     |     1     | 23.80  |  24.00   |         0.65         |
+| ONLP lab            |    26     |    23     | 25.04  |  25.00   |         0.62         |
+| SParse              |    26     |    23     | 25.80  |  26.00   |         0.46         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   18.73   |   0.00    |  2.29  |   0.00   |         4.31         |
+| ONLP lab            |   38.77   |   0.00    |  4.88  |   1.16   |         5.93         |
+| Uppsala             |   89.47   |   0.00    | 24.60  |  22.15   |        12.56         |
+| IBM NY              |   89.40   |   0.00    | 29.76  |  29.21   |        13.10         |
+| ArmParser           |   97.71   |   2.52    | 66.13  |  66.03   |        11.84         |
+| iParse              |   97.94   |   9.31    | 71.42  |  72.69   |        11.48         |
+| Fudan               |   98.96   |   34.68   | 82.33  |  82.77   |         7.99         |
+| HUJI                |   98.96   |   29.15   | 82.83  |  83.21   |         8.01         |
+| CEA LIST            |   98.96   |   37.40   | 83.06  |  83.48   |         7.80         |
+| HIT-SCIR            |   99.14   |   31.16   | 81.91  |  83.70   |         9.33         |
+| LeisureX            |   98.96   |   42.27   | 83.92  |  84.14   |         7.47         |
+| CUNI x-ling         |   98.96   |   42.30   | 84.00  |  84.18   |         7.50         |
+| SLT-Interactions    |   98.96   |   38.55   | 84.01  |  84.21   |         7.53         |
+| BOUN                |   98.95   |   42.15   | 84.87  |  85.43   |         7.02         |
+| Phoenix             |   98.96   |   42.16   | 84.83  |  85.43   |         7.01         |
+| ParisNLP            |   98.96   |   42.16   | 84.99  |  85.57   |         7.00         |
+| AntNLP              |   98.96   |   42.16   | 85.00  |  85.58   |         7.00         |
+| BASELINE UDPipe 1.2 |   98.96   |   42.16   | 85.00  |  85.58   |         7.00         |
+| ICS PAS             |   98.96   |   42.16   | 85.00  |  85.58   |         7.00         |
+| KParse              |   98.96   |   42.16   | 85.00  |  85.58   |         7.00         |
+| LATTICE             |   98.96   |   42.16   | 85.00  |  85.58   |         7.00         |
+| UniMelb             |   98.96   |   42.16   | 85.00  |  85.58   |         7.00         |
+| Stanford            |   99.01   |   42.05   | 85.52  |  85.62   |         7.63         |
+| TurkuNLP            |   99.17   |   42.40   | 86.18  |  86.07   |         7.65         |
+| UDPipe Future       |   99.20   |   42.83   | 86.67  |  86.71   |         7.41         |
+| NLP-Cube            |   98.76   |   43.09   | 86.47  |  86.97   |         6.99         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for Morphological features
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| UDPipe Future       |    23     |     1     |  2.88  |   2.00   |         2.37         |
+| Uppsala             |    23     |     1     |  2.30  |   2.00   |         1.57         |
+| CEA LIST            |    18     |     1     |  3.54  |   3.00   |         1.61         |
+| TurkuNLP            |    23     |     1     |  4.02  |   3.00   |         3.15         |
+| Stanford            |    24     |     1     |  6.83  |   5.00   |         5.33         |
+| ICS PAS             |    24     |     1     |  8.36  |   6.00   |         5.73         |
+| NLP-Cube            |    23     |     1     |  7.06  |   7.00   |         3.24         |
+| KParse              |    24     |     2     | 10.45  |   8.00   |         4.75         |
+| CUNI x-ling         |    22     |     1     |  9.98  |   9.00   |         4.62         |
+| AntNLP              |    15     |     2     | 10.34  |  10.00   |         1.62         |
+| BASELINE UDPipe 1.2 |    16     |     3     | 11.34  |  11.00   |         1.62         |
+| HIT-SCIR            |    24     |     1     | 14.00  |  11.00   |         7.09         |
+| Fudan               |    23     |     4     | 14.10  |  13.00   |         3.34         |
+| HUJI                |    25     |     5     | 15.82  |  15.00   |         4.08         |
+| LATTICE             |    19     |     5     | 14.68  |  15.00   |         1.75         |
+| LeisureX            |    23     |     6     | 17.02  |  17.00   |         3.38         |
+| ONLP lab            |    22     |     6     | 16.81  |  17.00   |         2.42         |
+| ParisNLP            |    21     |     3     | 16.25  |  17.00   |         2.89         |
+| Phoenix             |    22     |     3     | 14.92  |  17.00   |         4.88         |
+| SLT-Interactions    |    24     |     1     | 16.65  |  18.00   |         4.27         |
+| BOUN                |    23     |     4     | 16.94  |  18.00   |         4.08         |
+| UniMelb             |    22     |     9     | 19.09  |  19.00   |         1.82         |
+| ArmParser           |    25     |    15     | 23.55  |  23.00   |         0.81         |
+| iParse              |    25     |    12     | 23.42  |  24.00   |         1.28         |
+| IBM NY              |    25     |    22     | 24.66  |  25.00   |         0.55         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   18.75   |   0.00    |  2.29  |   0.00   |         4.32         |
+| IBM NY              |   85.33   |   24.33   | 59.12  |  59.38   |         7.02         |
+| iParse              |   96.12   |   12.38   | 68.66  |  69.50   |        11.10         |
+| ArmParser           |   95.67   |   14.13   | 69.93  |  70.55   |        10.62         |
+| HUJI                |   96.31   |   42.93   | 81.53  |  82.20   |         6.61         |
+| LeisureX            |   96.33   |   51.77   | 83.47  |  84.05   |         5.40         |
+| Fudan               |   96.33   |   51.77   | 83.48  |  84.05   |         5.42         |
+| SLT-Interactions    |   96.33   |   51.77   | 83.73  |  84.32   |         5.38         |
+| ONLP lab            |   96.33   |   51.20   | 83.68  |  84.32   |         5.49         |
+| BOUN                |   96.31   |   51.76   | 83.74  |  84.33   |         5.40         |
+| AntNLP              |   96.33   |   51.77   | 83.74  |  84.33   |         5.40         |
+| BASELINE UDPipe 1.2 |   96.33   |   51.77   | 83.74  |  84.33   |         5.40         |
+| LATTICE             |   96.33   |   51.77   | 83.74  |  84.33   |         5.40         |
+| UniMelb             |   96.33   |   51.77   | 83.74  |  84.33   |         5.40         |
+| ParisNLP            |   96.33   |   51.77   | 83.75  |  84.33   |         5.40         |
+| Phoenix             |   96.33   |   52.39   | 83.88  |  84.46   |         5.28         |
+| HIT-SCIR            |   96.33   |   54.32   | 84.25  |  84.72   |         5.14         |
+| KParse              |   96.70   |   50.28   | 84.33  |  84.93   |         5.60         |
+| CUNI x-ling         |   96.33   |   57.78   | 84.57  |  84.98   |         4.65         |
+| NLP-Cube            |   97.04   |   51.18   | 85.09  |  85.70   |         5.56         |
+| ICS PAS             |   97.30   |   47.88   | 85.15  |  85.88   |         6.05         |
+| Stanford            |   97.65   |   46.84   | 85.48  |  86.17   |         6.11         |
+| TurkuNLP            |   97.49   |   52.94   | 86.70  |  87.27   |         5.21         |
+| CEA LIST            |   97.46   |   58.41   | 86.84  |  87.29   |         4.68         |
+| UDPipe Future       |   97.80   |   52.95   | 86.67  |  87.37   |         5.52         |
+| Uppsala             |   97.60   |   58.66   | 87.60  |  88.00   |         4.52         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for All morphological tags
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| UDPipe Future       |    20     |     1     |  1.98  |   1.00   |         2.21         |
+| TurkuNLP            |    20     |     1     |  3.30  |   2.00   |         3.15         |
+| Stanford            |    20     |     1     |  3.49  |   3.00   |         3.45         |
+| NLP-Cube            |    21     |     1     |  6.61  |   4.00   |         4.63         |
+| AntNLP              |    13     |     1     |  6.19  |   6.00   |         1.45         |
+| BASELINE UDPipe 1.2 |    14     |     2     |  7.19  |   7.00   |         1.45         |
+| CUNI x-ling         |    20     |     1     |  7.90  |   8.00   |         4.43         |
+| Fudan               |    22     |     3     | 12.47  |  10.00   |         4.88         |
+| HUJI                |    23     |     3     | 12.20  |  10.00   |         4.89         |
+| LeisureX            |    21     |     2     | 11.43  |  11.00   |         3.73         |
+| Phoenix             |    20     |     1     | 10.31  |  11.00   |         3.92         |
+| BOUN                |    22     |     3     | 10.99  |  11.00   |         3.20         |
+| CEA LIST            |    22     |     1     | 11.00  |  12.00   |         5.31         |
+| ParisNLP            |    21     |     3     | 11.94  |  12.00   |         2.33         |
+| LATTICE             |    22     |     1     | 14.73  |  15.00   |         2.61         |
+| KParse              |    22     |     1     | 15.55  |  16.00   |         3.14         |
+| UniMelb             |    22     |     2     | 16.53  |  17.00   |         2.56         |
+| HIT-SCIR            |    23     |     1     | 14.52  |  17.00   |         6.20         |
+| ICS PAS             |    22     |     1     | 16.09  |  18.00   |         4.31         |
+| SLT-Interactions    |    23     |     3     | 17.44  |  18.00   |         2.74         |
+| iParse              |    24     |     4     | 19.82  |  21.00   |         3.30         |
+| ArmParser           |    24     |     9     | 21.32  |  22.00   |         1.31         |
+| Uppsala             |    26     |     1     | 23.56  |  23.00   |         0.76         |
+| IBM NY              |    26     |     3     | 23.75  |  24.00   |         0.64         |
+| ONLP lab            |    26     |    23     | 24.95  |  25.00   |         0.73         |
+| SParse              |    26     |    23     | 25.74  |  26.00   |         0.57         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   18.38   |   0.00    |  2.25  |   0.00   |         4.23         |
+| ONLP lab            |   37.55   |   0.00    |  4.72  |   1.09   |         5.74         |
+| IBM NY              |   65.92   |   0.00    | 18.57  |  17.92   |         9.32         |
+| Uppsala             |   84.37   |   0.00    | 20.06  |  19.06   |        10.79         |
+| ArmParser           |   92.04   |   2.10    | 61.15  |  61.30   |        11.17         |
+| iParse              |   93.35   |   9.02    | 65.52  |  66.27   |        10.91         |
+| SLT-Interactions    |   93.58   |   28.58   | 74.78  |  75.55   |         8.11         |
+| HUJI                |   93.61   |   26.23   | 75.46  |  76.28   |         8.09         |
+| HIT-SCIR            |   93.82   |   25.85   | 75.15  |  76.52   |         8.85         |
+| ICS PAS             |   93.75   |   32.93   | 76.06  |  76.88   |         7.75         |
+| Fudan               |   93.74   |   31.01   | 76.42  |  77.20   |         7.91         |
+| UniMelb             |   93.20   |   34.29   | 76.55  |  77.23   |         7.23         |
+| KParse              |   93.41   |   33.19   | 76.60  |  77.34   |         7.44         |
+| CEA LIST            |   93.99   |   32.93   | 76.66  |  77.45   |         7.82         |
+| LeisureX            |   93.74   |   34.09   | 76.70  |  77.47   |         7.70         |
+| LATTICE             |   93.56   |   34.33   | 76.94  |  77.64   |         7.32         |
+| Phoenix             |   93.74   |   35.34   | 77.48  |  78.18   |         7.31         |
+| BOUN                |   93.72   |   35.34   | 77.50  |  78.20   |         7.31         |
+| CUNI x-ling         |   93.74   |   33.53   | 77.58  |  78.23   |         7.43         |
+| ParisNLP            |   93.74   |   35.34   | 77.54  |  78.24   |         7.29         |
+| AntNLP              |   93.74   |   35.34   | 77.63  |  78.33   |         7.30         |
+| BASELINE UDPipe 1.2 |   93.74   |   35.34   | 77.63  |  78.33   |         7.30         |
+| NLP-Cube            |   94.48   |   33.66   | 78.21  |  78.98   |         7.59         |
+| Stanford            |   95.71   |   32.78   | 79.72  |  80.69   |         8.05         |
+| TurkuNLP            |   95.45   |   32.33   | 79.84  |  80.90   |         8.04         |
+| UDPipe Future       |   96.16   |   33.29   | 80.31  |  81.26   |         7.92         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for Lemmatization
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| TurkuNLP            |    17     |     1     |  1.35  |   1.00   |         1.02         |
+| UDPipe Future       |    20     |     1     |  4.02  |   3.00   |         3.62         |
+| HIT-SCIR            |    20     |     1     |  7.28  |   5.00   |         5.13         |
+| CUNI x-ling         |    20     |     1     |  6.57  |   5.00   |         4.14         |
+| Stanford            |    22     |     1     |  8.29  |   5.00   |         6.17         |
+| ICS PAS             |    22     |     1     |  9.28  |   6.00   |         6.61         |
+| AntNLP              |    13     |     1     |  6.48  |   6.00   |         1.76         |
+| CEA LIST            |    20     |     1     |  6.53  |   6.00   |         3.70         |
+| BASELINE UDPipe 1.2 |    14     |     2     |  7.48  |   7.00   |         1.76         |
+| HUJI                |    24     |     3     | 12.08  |  10.00   |         4.79         |
+| LATTICE             |    17     |     3     | 10.42  |  10.00   |         1.74         |
+| LeisureX            |    20     |     1     | 11.71  |  12.00   |         3.09         |
+| ParisNLP            |    19     |     5     | 12.46  |  12.00   |         1.86         |
+| BOUN                |    21     |     3     | 12.65  |  13.00   |         3.75         |
+| SLT-Interactions    |    22     |     1     | 12.77  |  13.00   |         4.20         |
+| Phoenix             |    21     |     2     | 13.01  |  14.00   |         3.44         |
+| UniMelb             |    19     |     6     | 13.95  |  14.00   |         1.78         |
+| KParse              |    22     |     1     | 16.70  |  18.00   |         3.64         |
+| Fudan               |    22     |     1     | 17.99  |  18.00   |         1.90         |
+| NLP-Cube            |    24     |     5     | 20.11  |  20.00   |         0.82         |
+| ArmParser           |    25     |    11     | 21.44  |  21.00   |         1.72         |
+| iParse              |    25     |     7     | 21.16  |  21.00   |         2.43         |
+| IBM NY              |    25     |    18     | 23.35  |  23.00   |         0.91         |
+| Uppsala             |    25     |     7     | 23.62  |  24.00   |         0.98         |
+| ONLP lab            |    25     |    21     | 24.30  |  25.00   |         0.85         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   18.69   |   0.00    |  2.28  |   0.00   |         4.30         |
+| ONLP lab            |   79.49   |   30.36   | 57.10  |  57.21   |         5.08         |
+| Uppsala             |   83.18   |   36.45   | 58.50  |  58.51   |         4.81         |
+| IBM NY              |   86.65   |   30.81   | 59.51  |  59.55   |         5.50         |
+| iParse              |   97.31   |   13.97   | 71.70  |  72.72   |        11.26         |
+| ArmParser           |   97.05   |   14.01   | 72.24  |  72.74   |        10.86         |
+| NLP-Cube            |   95.65   |   49.30   | 81.22  |  81.76   |         5.60         |
+| Fudan               |   95.97   |   63.11   | 85.91  |  86.56   |         4.21         |
+| HUJI                |   97.31   |   50.06   | 85.62  |  86.62   |         5.94         |
+| KParse              |   96.81   |   58.91   | 86.27  |  86.91   |         4.80         |
+| SLT-Interactions    |   96.96   |   64.11   | 87.51  |  88.19   |         4.35         |
+| BOUN                |   97.31   |   64.10   | 87.69  |  88.36   |         4.40         |
+| Phoenix             |   97.31   |   61.66   | 87.69  |  88.45   |         4.63         |
+| LeisureX            |   97.31   |   64.11   | 87.78  |  88.46   |         4.37         |
+| ParisNLP            |   97.31   |   64.11   | 87.84  |  88.52   |         4.37         |
+| AntNLP              |   97.31   |   64.11   | 87.85  |  88.53   |         4.37         |
+| BASELINE UDPipe 1.2 |   97.31   |   64.11   | 87.85  |  88.53   |         4.37         |
+| LATTICE             |   97.31   |   64.11   | 87.85  |  88.53   |         4.37         |
+| UniMelb             |   97.31   |   64.11   | 87.85  |  88.53   |         4.37         |
+| ICS PAS             |   98.24   |   56.62   | 87.99  |  88.61   |         5.56         |
+| Stanford            |   97.63   |   58.75   | 88.32  |  89.05   |         5.18         |
+| CEA LIST            |   97.31   |   69.26   | 88.91  |  89.21   |         3.39         |
+| HIT-SCIR            |   97.26   |   67.39   | 88.82  |  89.22   |         3.63         |
+| CUNI x-ling         |   97.31   |   69.37   | 88.96  |  89.27   |         3.38         |
+| UDPipe Future       |   98.34   |   64.39   | 89.32  |  90.06   |         4.53         |
+| TurkuNLP            |   98.38   |   69.05   | 91.24  |  91.58   |         3.71         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for Sentence segmentation
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| Uppsala             |    24     |     1     |  7.90  |   2.00   |         9.18         |
+| HIT-SCIR            |    24     |     1     |  6.27  |   3.00   |         6.86         |
+| UDPipe Future       |    24     |     1     |  5.09  |   3.00   |         5.72         |
+| AntNLP              |    11     |     1     |  5.33  |   5.00   |         1.69         |
+| NLP-Cube            |    24     |     1     | 10.53  |   5.00   |         9.12         |
+| BASELINE UDPipe 1.2 |    12     |     2     |  6.33  |   6.00   |         1.69         |
+| BOUN                |    13     |     3     |  7.33  |   7.00   |         1.69         |
+| IBM NY              |    24     |     1     |  9.26  |   8.00   |         6.40         |
+| CEA LIST            |    24     |     2     | 12.71  |   9.00   |         6.15         |
+| Fudan               |    24     |     4     | 10.70  |  10.00   |         4.43         |
+| CUNI x-ling         |    24     |     1     | 12.66  |  10.00   |         7.09         |
+| HUJI                |    24     |     4     | 13.12  |  11.00   |         5.67         |
+| ICS PAS             |    16     |     4     | 11.23  |  11.00   |         1.87         |
+| KParse              |    17     |     5     | 12.23  |  12.00   |         1.87         |
+| LATTICE             |    18     |     6     | 13.23  |  13.00   |         1.87         |
+| LeisureX            |    19     |     7     | 14.23  |  14.00   |         1.87         |
+| ONLP lab            |    23     |     8     | 15.74  |  16.00   |         2.50         |
+| ParisNLP            |    20     |     9     | 16.11  |  16.00   |         1.84         |
+| Phoenix             |    23     |     1     | 14.93  |  18.00   |         6.40         |
+| SLT-Interactions    |    21     |    10     | 17.50  |  18.00   |         1.97         |
+| TurkuNLP            |    23     |     1     | 17.27  |  19.00   |         5.62         |
+| UniMelb             |    23     |    11     | 19.17  |  20.00   |         2.28         |
+| Stanford            |    24     |     1     | 17.82  |  23.00   |         9.18         |
+| iParse              |    25     |    12     | 23.33  |  24.00   |         1.49         |
+| ArmParser           |    26     |    24     | 25.04  |  25.00   |         0.19         |
+| SParse              |    26     |    25     | 25.96  |  26.00   |         0.19         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   19.18   |   0.00    |  2.34  |   0.00   |         4.41         |
+| ArmParser           |   36.30   |   1.25    | 13.33  |  12.90   |         4.24         |
+| iParse              |   98.57   |   7.24    | 68.39  |  68.65   |        11.60         |
+| Stanford            |   99.33   |   24.70   | 76.57  |  77.15   |         9.68         |
+| HUJI                |   98.74   |   30.47   | 80.86  |  81.79   |         8.28         |
+| NLP-Cube            |   98.92   |   37.80   | 82.57  |  83.39   |         7.58         |
+| CEA LIST            |   98.74   |   37.24   | 82.80  |  83.58   |         7.36         |
+| CUNI x-ling         |   98.74   |   38.44   | 82.80  |  83.58   |         7.27         |
+| Fudan               |   98.74   |   37.28   | 82.86  |  83.64   |         7.35         |
+| Phoenix             |   98.74   |   37.24   | 82.92  |  83.70   |         7.36         |
+| ONLP lab            |   98.74   |   37.24   | 83.01  |  83.81   |         7.37         |
+| AntNLP              |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| BASELINE UDPipe 1.2 |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| BOUN                |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| ICS PAS             |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| KParse              |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| LATTICE             |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| LeisureX            |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| ParisNLP            |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| SLT-Interactions    |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| UniMelb             |   98.74   |   37.28   | 83.02  |  83.81   |         7.36         |
+| TurkuNLP            |   98.74   |   38.48   | 83.04  |  83.83   |         7.22         |
+| IBM NY              |   98.74   |   40.98   | 83.52  |  84.22   |         7.10         |
+| UDPipe Future       |   99.07   |   38.91   | 83.65  |  84.42   |         7.29         |
+| Uppsala             |   98.93   |   42.67   | 83.80  |  84.50   |         7.02         |
+| HIT-SCIR            |   98.74   |   42.51   | 83.87  |  84.56   |         6.94         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for Word segmentation
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| Uppsala             |    25     |     1     |  5.22  |   2.00   |         7.36         |
+| HIT-SCIR            |    24     |     1     |  5.22  |   3.00   |         6.23         |
+| AntNLP              |    13     |     1     |  6.42  |   6.00   |         2.39         |
+| UDPipe Future       |    25     |     1     |  9.17  |   6.00   |         6.74         |
+| CUNI x-ling         |    25     |     1     | 10.03  |   8.00   |         7.19         |
+| BASELINE UDPipe 1.2 |    14     |     2     |  7.48  |   8.00   |         2.36         |
+| CEA LIST            |    24     |     1     |  8.58  |   8.00   |         5.92         |
+| BOUN                |    15     |     3     |  8.48  |   9.00   |         2.36         |
+| Fudan               |    24     |     4     | 11.44  |  11.00   |         3.85         |
+| HUJI                |    25     |     4     | 13.94  |  12.00   |         5.54         |
+| ICS PAS             |    17     |     4     | 11.94  |  12.00   |         2.15         |
+| KParse              |    18     |     5     | 12.94  |  13.00   |         2.15         |
+| LATTICE             |    19     |     6     | 13.94  |  14.00   |         2.15         |
+| LeisureX            |    20     |     7     | 14.94  |  15.00   |         2.15         |
+| SLT-Interactions    |    22     |     1     | 13.14  |  16.00   |         6.46         |
+| ONLP lab            |    24     |     8     | 16.59  |  16.00   |         2.98         |
+| ParisNLP            |    22     |     1     | 15.38  |  17.00   |         4.45         |
+| Phoenix             |    24     |     1     | 14.59  |  17.00   |         5.98         |
+| TurkuNLP            |    23     |     1     | 14.19  |  18.00   |         6.91         |
+| IBM NY              |    25     |     1     | 13.61  |  20.00   |         9.00         |
+| NLP-Cube            |    25     |     1     | 14.24  |  20.00   |         8.60         |
+| UniMelb             |    24     |    12     | 19.44  |  20.00   |         2.09         |
+| Stanford            |    25     |     1     | 16.91  |  23.00   |         9.00         |
+| ArmParser           |    25     |     2     | 23.03  |  24.00   |         4.93         |
+| iParse              |    25     |    13     | 24.13  |  25.00   |         1.61         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   19.01   |   0.00    |  2.32  |   0.00   |         4.38         |
+| iParse              |   99.98   |   18.43   | 78.12  |  78.95   |        11.94         |
+| ArmParser           |   99.98   |   18.34   | 79.43  |  79.48   |        11.68         |
+| Stanford            |   99.98   |   78.10   | 95.99  |  96.93   |         3.46         |
+| HUJI                |   99.98   |   64.34   | 94.62  |  97.45   |         5.53         |
+| NLP-Cube            |   99.98   |   81.16   | 96.80  |  97.98   |         3.28         |
+| IBM NY              |   99.97   |   81.16   | 96.92  |  98.09   |         3.31         |
+| Fudan               |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| AntNLP              |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| BASELINE UDPipe 1.2 |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| BOUN                |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| ICS PAS             |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| KParse              |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| LATTICE             |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| LeisureX            |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| ONLP lab            |   99.98   |   80.73   | 96.86  |  98.16   |         3.52         |
+| UniMelb             |   99.98   |   81.58   | 96.96  |  98.16   |         3.27         |
+| ParisNLP            |   99.98   |   81.58   | 96.97  |  98.17   |         3.27         |
+| TurkuNLP            |   99.98   |   85.04   | 97.42  |  98.20   |         2.30         |
+| Phoenix             |   99.98   |   82.03   | 97.03  |  98.23   |         3.26         |
+| SLT-Interactions    |   99.98   |   82.32   | 97.09  |  98.24   |         3.21         |
+| UDPipe Future       |   99.99   |   82.19   | 97.04  |  98.25   |         3.25         |
+| CUNI x-ling         |   99.98   |   87.58   | 97.74  |  98.29   |         1.85         |
+| CEA LIST            |   99.98   |   87.87   | 97.78  |  98.30   |         1.80         |
+| Uppsala             |   99.98   |   90.03   | 98.18  |  98.67   |         1.45         |
+| HIT-SCIR            |   99.98   |   89.71   | 98.12  |  98.68   |         1.57         |
+
+INFO: Loading data
+INFO: Calculation of parser performance metrics for Tokenization
+INFO: Obtaining the score for each parser in the subsets
+INFO: Calculating the mean of the scores for each parser in each subset
+INFO: Calculating the ranking of each parser based on the mean value of the scores in each subset
+INFO: Calculating ranking metrics
+INFO: Calculating scores metrics
+INFO: Showing the results of the metrics for: ranking
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| HIT-SCIR            |    25     |     1     |  6.72  |   3.00   |         7.60         |
+| NLP-Cube            |    24     |     1     |  8.15  |   4.00   |         8.04         |
+| Uppsala             |    25     |     1     | 12.22  |   6.00   |         9.85         |
+| AntNLP              |    11     |     1     |  5.85  |   6.00   |         2.13         |
+| UDPipe Future       |    25     |     1     |  8.69  |   6.00   |         6.95         |
+| BASELINE UDPipe 1.2 |    12     |     2     |  6.93  |   7.00   |         2.10         |
+| CEA LIST            |    24     |     1     |  8.45  |   7.00   |         6.37         |
+| BOUN                |    13     |     3     |  7.93  |   8.00   |         2.10         |
+| CUNI x-ling         |    24     |     1     | 10.79  |   9.00   |         7.28         |
+| Fudan               |    24     |     4     | 10.93  |  10.00   |         3.88         |
+| HUJI                |    25     |     4     | 13.68  |  12.00   |         5.81         |
+| ICS PAS             |    16     |     4     | 11.38  |  12.00   |         2.06         |
+| KParse              |    17     |     5     | 12.38  |  13.00   |         2.06         |
+| LATTICE             |    18     |     6     | 13.38  |  14.00   |         2.06         |
+| LeisureX            |    19     |     7     | 14.38  |  15.00   |         2.06         |
+| SLT-Interactions    |    22     |     1     | 12.74  |  16.00   |         6.37         |
+| ONLP lab            |    24     |     8     | 16.02  |  16.00   |         3.02         |
+| ParisNLP            |    21     |     9     | 16.26  |  16.00   |         1.99         |
+| Phoenix             |    24     |     1     | 15.61  |  18.00   |         5.85         |
+| TurkuNLP            |    23     |     1     | 15.34  |  18.00   |         6.51         |
+| IBM NY              |    25     |     1     | 13.12  |  19.00   |         9.12         |
+| UniMelb             |    24     |    11     | 19.01  |  19.00   |         2.10         |
+| Stanford            |    25     |     1     | 18.13  |  22.00   |         8.13         |
+| ArmParser           |    25     |     2     | 22.80  |  24.00   |         5.31         |
+| iParse              |    25     |    13     | 24.10  |  25.00   |         1.56         |
+| SParse              |    26     |    26     | 26.00  |  26.00   |         0.00         |
+
+INFO: Generating chart
+INFO: Showing the results of the metrics for: scores
+
+|                     |  maximum  |  minimum  |  mean  |  median  |  standard_deviation  |
+|---------------------|-----------|-----------|--------|----------|----------------------|
+| SParse              |   19.02   |   0.00    |  2.32  |   0.00   |         4.38         |
+| iParse              |   99.99   |   18.43   | 78.47  |  79.38   |        11.99         |
+| ArmParser           |   99.98   |   18.34   | 79.77  |  79.74   |        11.72         |
+| Stanford            |   99.99   |   78.22   | 96.19  |  97.09   |         3.46         |
+| HUJI                |   99.99   |   64.88   | 94.96  |  98.01   |         5.52         |
+| Uppsala             |   99.98   |   85.81   | 97.60  |  98.21   |         1.90         |
+| IBM NY              |   99.99   |   82.21   | 97.30  |  98.58   |         3.29         |
+| NLP-Cube            |   99.99   |   82.62   | 97.36  |  98.61   |         3.25         |
+| Fudan               |   99.99   |   83.19   | 97.38  |  98.72   |         3.24         |
+| AntNLP              |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| BASELINE UDPipe 1.2 |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| BOUN                |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| ICS PAS             |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| KParse              |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| LATTICE             |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| LeisureX            |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| ONLP lab            |   99.99   |   82.33   | 97.28  |  98.72   |         3.49         |
+| ParisNLP            |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| UniMelb             |   99.99   |   83.19   | 97.39  |  98.72   |         3.24         |
+| CUNI x-ling         |   99.99   |   88.42   | 98.09  |  98.72   |         1.80         |
+| TurkuNLP            |   99.99   |   86.65   | 97.83  |  98.74   |         2.25         |
+| UDPipe Future       |   99.99   |   83.36   | 97.46  |  98.78   |         3.23         |
+| Phoenix             |   99.99   |   83.24   | 97.46  |  98.79   |         3.23         |
+| CEA LIST            |   99.99   |   88.77   | 98.15  |  98.81   |         1.74         |
+| SLT-Interactions    |   99.99   |   83.95   | 97.51  |  98.83   |         3.18         |
+| HIT-SCIR            |   99.99   |   90.73   | 98.42  |  99.00   |         1.50         |
