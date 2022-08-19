@@ -113,7 +113,7 @@ pyxdg==0.25
 PyYAML==3.12
 pyzmq==22.3.0
 regex==2021.11.10
-reportlab==3.4.0
+reportlab==3.5.55
 requests==2.27.0
 requests-unixsocket==0.2.0
 sacremoses==0.0.46
