@@ -1,0 +1,1822 @@
+.
+├── ControlSet
+│   ├── Greek-GDT
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Hindi-HDTB
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Polish-LFG
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Slovak-SNK
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Slovenian-SSJ
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   └── Swedish-Talbanken
+│       ├── Iteracion_1
+│       │   ├── alphabets
+│       │   │   ├── character.json
+│       │   │   ├── pos.json
+│       │   │   ├── type.json
+│       │   │   └── word.json
+│       │   ├── config.json
+│       │   ├── model.pt
+│       │   └── tmp
+│       │       ├── gold.txt
+│       │       ├── gold_udpipe.txt
+│       │       ├── pred.txt
+│       │       └── pred_udpipe.txt
+│       ├── Iteracion_2
+│       │   ├── alphabets
+│       │   │   ├── character.json
+│       │   │   ├── pos.json
+│       │   │   ├── type.json
+│       │   │   └── word.json
+│       │   ├── config.json
+│       │   ├── model.pt
+│       │   └── tmp
+│       │       ├── gold.txt
+│       │       ├── gold_udpipe.txt
+│       │       ├── pred.txt
+│       │       └── pred_udpipe.txt
+│       └── Iteracion_3
+│           ├── alphabets
+│           │   ├── character.json
+│           │   ├── pos.json
+│           │   ├── type.json
+│           │   └── word.json
+│           ├── config.json
+│           ├── model.pt
+│           └── tmp
+│               ├── gold.txt
+│               ├── gold_udpipe.txt
+│               ├── pred.txt
+│               └── pred_udpipe.txt
+├── Default_Structure.txt
+├── Kulmiez_SmithEtAl
+│   ├── Arabic-PADT
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Basque-BDT
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Japanese-GSD
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Korean
+│   │   ├── GSD
+│   │   │   ├── Iteracion_1
+│   │   │   │   ├── alphabets
+│   │   │   │   │   ├── character.json
+│   │   │   │   │   ├── pos.json
+│   │   │   │   │   ├── type.json
+│   │   │   │   │   └── word.json
+│   │   │   │   ├── config.json
+│   │   │   │   ├── model.pt
+│   │   │   │   └── tmp
+│   │   │   │       ├── gold.txt
+│   │   │   │       ├── gold_udpipe.txt
+│   │   │   │       ├── pred.txt
+│   │   │   │       └── pred_udpipe.txt
+│   │   │   ├── Iteracion_2
+│   │   │   │   ├── alphabets
+│   │   │   │   │   ├── character.json
+│   │   │   │   │   ├── pos.json
+│   │   │   │   │   ├── type.json
+│   │   │   │   │   └── word.json
+│   │   │   │   ├── config.json
+│   │   │   │   ├── model.pt
+│   │   │   │   └── tmp
+│   │   │   │       ├── gold.txt
+│   │   │   │       ├── gold_udpipe.txt
+│   │   │   │       ├── pred.txt
+│   │   │   │       └── pred_udpipe.txt
+│   │   │   └── Iteracion_3
+│   │   │       ├── alphabets
+│   │   │       │   ├── character.json
+│   │   │       │   ├── pos.json
+│   │   │       │   ├── type.json
+│   │   │       │   └── word.json
+│   │   │       ├── config.json
+│   │   │       ├── model.pt
+│   │   │       └── tmp
+│   │   │           ├── gold.txt
+│   │   │           ├── gold_udpipe.txt
+│   │   │           ├── pred.txt
+│   │   │           └── pred_udpipe.txt
+│   │   └── Kaist
+│   │       ├── Iteracion_1
+│   │       │   ├── alphabets
+│   │       │   │   ├── character.json
+│   │       │   │   ├── pos.json
+│   │       │   │   ├── type.json
+│   │       │   │   └── word.json
+│   │       │   ├── config.json
+│   │       │   ├── model.pt
+│   │       │   └── tmp
+│   │       │       ├── gold.txt
+│   │       │       ├── gold_udpipe.txt
+│   │       │       ├── pred.txt
+│   │       │       └── pred_udpipe.txt
+│   │       ├── Iteracion_2
+│   │       │   ├── alphabets
+│   │       │   │   ├── character.json
+│   │       │   │   ├── pos.json
+│   │       │   │   ├── type.json
+│   │       │   │   └── word.json
+│   │       │   ├── config.json
+│   │       │   ├── model.pt
+│   │       │   └── tmp
+│   │       │       ├── gold.txt
+│   │       │       ├── gold_udpipe.txt
+│   │       │       ├── pred.txt
+│   │       │       └── pred_udpipe.txt
+│   │       └── Iteracion_3
+│   │           ├── alphabets
+│   │           │   ├── character.json
+│   │           │   ├── pos.json
+│   │           │   ├── type.json
+│   │           │   └── word.json
+│   │           ├── config.json
+│   │           ├── model.pt
+│   │           └── tmp
+│   │               ├── gold.txt
+│   │               ├── gold_udpipe.txt
+│   │               ├── pred.txt
+│   │               └── pred_udpipe.txt
+│   └── Turkish-IMST
+│       ├── Iteracion_1
+│       │   ├── alphabets
+│       │   │   ├── character.json
+│       │   │   ├── pos.json
+│       │   │   ├── type.json
+│       │   │   └── word.json
+│       │   ├── config.json
+│       │   ├── model.pt
+│       │   └── tmp
+│       │       ├── gold.txt
+│       │       ├── gold_udpipe.txt
+│       │       ├── pred.txt
+│       │       └── pred_udpipe.txt
+│       ├── Iteracion_2
+│       │   ├── alphabets
+│       │   │   ├── character.json
+│       │   │   ├── pos.json
+│       │   │   ├── type.json
+│       │   │   └── word.json
+│       │   ├── config.json
+│       │   ├── model.pt
+│       │   └── tmp
+│       │       ├── gold.txt
+│       │       ├── gold_udpipe.txt
+│       │       ├── pred.txt
+│       │       └── pred_udpipe.txt
+│       └── Iteracion_3
+│           ├── alphabets
+│           │   ├── character.json
+│           │   ├── pos.json
+│           │   ├── type.json
+│           │   └── word.json
+│           ├── config.json
+│           ├── model.pt
+│           └── tmp
+│               ├── gold.txt
+│               ├── gold_udpipe.txt
+│               ├── pred.txt
+│               └── pred_udpipe.txt
+├── LowResources
+│   ├── Belarusian-HSE
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Galician-TreeGal
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Lithuanian-HSE
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Marathi-UFAL
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Old_Russian-RNC
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       └── pred.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       └── pred.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           └── pred.txt
+│   └── Welsh-CCG
+│       ├── Iteracion_1
+│       │   ├── alphabets
+│       │   │   ├── character.json
+│       │   │   ├── pos.json
+│       │   │   ├── type.json
+│       │   │   └── word.json
+│       │   ├── config.json
+│       │   ├── model.pt
+│       │   └── tmp
+│       │       ├── gold.txt
+│       │       └── pred.txt
+│       ├── Iteracion_2
+│       │   ├── alphabets
+│       │   │   ├── character.json
+│       │   │   ├── pos.json
+│       │   │   ├── type.json
+│       │   │   └── word.json
+│       │   ├── config.json
+│       │   ├── model.pt
+│       │   └── tmp
+│       │       ├── gold.txt
+│       │       └── pred.txt
+│       └── Iteracion_3
+│           ├── alphabets
+│           │   ├── character.json
+│           │   ├── pos.json
+│           │   ├── type.json
+│           │   └── word.json
+│           ├── config.json
+│           ├── model.pt
+│           └── tmp
+│               ├── gold.txt
+│               └── pred.txt
+├── SchluterEtAl
+│   ├── Coptic-Scriptorium
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   ├── Indonesian-GSD
+│   │   ├── Iteracion_1
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   ├── Iteracion_2
+│   │   │   ├── alphabets
+│   │   │   │   ├── character.json
+│   │   │   │   ├── pos.json
+│   │   │   │   ├── type.json
+│   │   │   │   └── word.json
+│   │   │   ├── config.json
+│   │   │   ├── model.pt
+│   │   │   └── tmp
+│   │   │       ├── gold.txt
+│   │   │       ├── gold_udpipe.txt
+│   │   │       ├── pred.txt
+│   │   │       └── pred_udpipe.txt
+│   │   └── Iteracion_3
+│   │       ├── alphabets
+│   │       │   ├── character.json
+│   │       │   ├── pos.json
+│   │       │   ├── type.json
+│   │       │   └── word.json
+│   │       ├── config.json
+│   │       ├── model.pt
+│   │       └── tmp
+│   │           ├── gold.txt
+│   │           ├── gold_udpipe.txt
+│   │           ├── pred.txt
+│   │           └── pred_udpipe.txt
+│   └── Old_Church_Slavonic-PROIEL
+│       ├── Iteracion_1
+│       │   ├── alphabets
+│       │   │   ├── character.json
+│       │   │   ├── pos.json
+│       │   │   ├── type.json
+│       │   │   └── word.json
+│       │   ├── config.json
+│       │   ├── model.pt
+│       │   └── tmp
+│       │       ├── gold.txt
+│       │       ├── gold_udpipe.txt
+│       │       ├── pred.txt
+│       │       └── pred_udpipe.txt
+│       └── Iteracion_2
+│           ├── alphabets
+│           │   ├── character.json
+│           │   ├── pos.json
+│           │   ├── type.json
+│           │   └── word.json
+│           ├── config.json
+│           ├── model.pt
+│           └── tmp
+│               ├── gold.txt
+│               ├── gold_udpipe.txt
+│               ├── pred.txt
+│               └── pred_udpipe.txt
+└── UD
+    ├── Ancient_Greek
+    │   ├── Perseus
+    │   │   ├── Iteracion_1
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   ├── Iteracion_2
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   └── Iteracion_3
+    │   │       ├── alphabets
+    │   │       │   ├── character.json
+    │   │       │   ├── pos.json
+    │   │       │   ├── type.json
+    │   │       │   └── word.json
+    │   │       ├── config.json
+    │   │       ├── model.pt
+    │   │       └── tmp
+    │   │           ├── gold.txt
+    │   │           ├── gold_udpipe.txt
+    │   │           ├── pred.txt
+    │   │           └── pred_udpipe.txt
+    │   └── PROIEL
+    │       ├── Iteracion_1
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       ├── Iteracion_2
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       └── Iteracion_3
+    │           ├── alphabets
+    │           │   ├── character.json
+    │           │   ├── pos.json
+    │           │   ├── type.json
+    │           │   └── word.json
+    │           ├── config.json
+    │           ├── model.pt
+    │           └── tmp
+    │               ├── gold.txt
+    │               ├── gold_udpipe.txt
+    │               ├── pred.txt
+    │               └── pred_udpipe.txt
+    ├── Bulgarian-BTB
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    ├── Catalan-AnCora
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    ├── Chinese-GSD
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    ├── Czech
+    │   ├── CAC
+    │   │   ├── Iteracion_1
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   ├── Iteracion_2
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   └── Iteracion_3
+    │   │       ├── alphabets
+    │   │       │   ├── character.json
+    │   │       │   ├── pos.json
+    │   │       │   ├── type.json
+    │   │       │   └── word.json
+    │   │       ├── config.json
+    │   │       ├── model.pt
+    │   │       └── tmp
+    │   │           ├── gold.txt
+    │   │           ├── gold_udpipe.txt
+    │   │           ├── pred.txt
+    │   │           └── pred_udpipe.txt
+    │   ├── CLTT
+    │   │   ├── Iteracion_1
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   ├── Iteracion_2
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   └── Iteracion_3
+    │   │       ├── alphabets
+    │   │       │   ├── character.json
+    │   │       │   ├── pos.json
+    │   │       │   ├── type.json
+    │   │       │   └── word.json
+    │   │       ├── config.json
+    │   │       ├── model.pt
+    │   │       └── tmp
+    │   │           ├── gold.txt
+    │   │           ├── gold_udpipe.txt
+    │   │           ├── pred.txt
+    │   │           └── pred_udpipe.txt
+    │   ├── FicTree
+    │   │   ├── Iteracion_1
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   ├── Iteracion_2
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   └── Iteracion_3
+    │   │       ├── alphabets
+    │   │       │   ├── character.json
+    │   │       │   ├── pos.json
+    │   │       │   ├── type.json
+    │   │       │   └── word.json
+    │   │       ├── config.json
+    │   │       ├── model.pt
+    │   │       └── tmp
+    │   │           ├── gold.txt
+    │   │           ├── gold_udpipe.txt
+    │   │           ├── pred.txt
+    │   │           └── pred_udpipe.txt
+    │   └── PDT
+    │       ├── Iteracion_1
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       ├── Iteracion_2
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       └── Iteracion_3
+    │           ├── alphabets
+    │           │   ├── character.json
+    │           │   ├── pos.json
+    │           │   ├── type.json
+    │           │   └── word.json
+    │           ├── config.json
+    │           ├── model.pt
+    │           └── tmp
+    │               ├── gold.txt
+    │               ├── gold_udpipe.txt
+    │               ├── pred.txt
+    │               └── pred_udpipe.txt
+    ├── Dutch
+    │   ├── Alpino
+    │   │   ├── Iteracion_1
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   ├── Iteracion_2
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   └── Iteracion_3
+    │   │       ├── alphabets
+    │   │       │   ├── character.json
+    │   │       │   ├── pos.json
+    │   │       │   ├── type.json
+    │   │       │   └── word.json
+    │   │       ├── config.json
+    │   │       ├── model.pt
+    │   │       └── tmp
+    │   │           ├── gold.txt
+    │   │           ├── gold_udpipe.txt
+    │   │           ├── pred.txt
+    │   │           └── pred_udpipe.txt
+    │   └── LassySmall
+    │       ├── Iteracion_1
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       ├── Iteracion_2
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       └── Iteracion_3
+    │           ├── alphabets
+    │           │   ├── character.json
+    │           │   ├── pos.json
+    │           │   ├── type.json
+    │           │   └── word.json
+    │           ├── config.json
+    │           ├── model.pt
+    │           └── tmp
+    │               ├── gold.txt
+    │               ├── gold_udpipe.txt
+    │               ├── pred.txt
+    │               └── pred_udpipe.txt
+    ├── English-EWT
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    ├── Finnish-TDT
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    ├── French-GSD
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    ├── German-GSD
+    │   ├── Iteracion_1
+    │   ├── Iteracion_2
+    │   └── Iteracion_3
+    ├── Hebrew-HTB
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    ├── Italian-ISDT
+    │   ├── Iteracion_1
+    │   ├── Iteracion_2
+    │   └── Iteracion_3
+    ├── Kazakh-KTB
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       └── pred.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       └── pred.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           └── pred.txt
+    ├── Norwegian
+    │   ├── Bokmaal
+    │   │   ├── Iteracion_1
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   ├── Iteracion_2
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   └── Iteracion_3
+    │   │       ├── alphabets
+    │   │       │   ├── character.json
+    │   │       │   ├── pos.json
+    │   │       │   ├── type.json
+    │   │       │   └── word.json
+    │   │       ├── config.json
+    │   │       ├── model.pt
+    │   │       └── tmp
+    │   │           ├── gold.txt
+    │   │           ├── gold_udpipe.txt
+    │   │           ├── pred.txt
+    │   │           └── pred_udpipe.txt
+    │   └── Nynorsk
+    │       ├── Iteracion_1
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       ├── Iteracion_2
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       └── Iteracion_3
+    │           ├── alphabets
+    │           │   ├── character.json
+    │           │   ├── pos.json
+    │           │   ├── type.json
+    │           │   └── word.json
+    │           ├── config.json
+    │           ├── model.pt
+    │           └── tmp
+    │               ├── gold.txt
+    │               ├── gold_udpipe.txt
+    │               ├── pred.txt
+    │               └── pred_udpipe.txt
+    ├── Romanian-RRT
+    │   ├── Iteracion_1
+    │   ├── Iteracion_2
+    │   └── Iteracion_3
+    ├── Russian
+    │   ├── GSD
+    │   │   ├── Iteracion_1
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   ├── Iteracion_2
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   └── Iteracion_3
+    │   │       ├── alphabets
+    │   │       │   ├── character.json
+    │   │       │   ├── pos.json
+    │   │       │   ├── type.json
+    │   │       │   └── word.json
+    │   │       ├── config.json
+    │   │       ├── model.pt
+    │   │       └── tmp
+    │   │           ├── gold.txt
+    │   │           ├── gold_udpipe.txt
+    │   │           ├── pred.txt
+    │   │           └── pred_udpipe.txt
+    │   └── SynTagRus
+    │       ├── Iteracion_1
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       ├── Iteracion_2
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       └── Iteracion_3
+    │           ├── alphabets
+    │           │   ├── character.json
+    │           │   ├── pos.json
+    │           │   ├── type.json
+    │           │   └── word.json
+    │           ├── config.json
+    │           ├── model.pt
+    │           └── tmp
+    │               ├── gold.txt
+    │               ├── gold_udpipe.txt
+    │               ├── pred.txt
+    │               └── pred_udpipe.txt
+    ├── Spanish
+    │   ├── AnCora
+    │   │   ├── Iteracion_1
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       └── pred_udpipe.txt
+    │   │   ├── Iteracion_2
+    │   │   │   ├── alphabets
+    │   │   │   │   ├── character.json
+    │   │   │   │   ├── pos.json
+    │   │   │   │   ├── type.json
+    │   │   │   │   └── word.json
+    │   │   │   ├── config.json
+    │   │   │   ├── model.pt
+    │   │   │   └── tmp
+    │   │   │       ├── gold.txt
+    │   │   │       ├── gold_udpipe.txt
+    │   │   │       ├── pred.txt
+    │   │   │       └── pred_udpipe.txt
+    │   │   └── Iteracion_3
+    │   │       ├── alphabets
+    │   │       │   ├── character.json
+    │   │       │   ├── pos.json
+    │   │       │   ├── type.json
+    │   │       │   └── word.json
+    │   │       ├── config.json
+    │   │       ├── model.pt
+    │   │       └── tmp
+    │   │           ├── gold.txt
+    │   │           ├── gold_udpipe.txt
+    │   │           ├── pred.txt
+    │   │           └── pred_udpipe.txt
+    │   └── GSD
+    │       ├── Iteracion_1
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       ├── Iteracion_2
+    │       │   ├── alphabets
+    │       │   │   ├── character.json
+    │       │   │   ├── pos.json
+    │       │   │   ├── type.json
+    │       │   │   └── word.json
+    │       │   ├── config.json
+    │       │   ├── model.pt
+    │       │   └── tmp
+    │       │       ├── gold.txt
+    │       │       ├── gold_udpipe.txt
+    │       │       ├── pred.txt
+    │       │       └── pred_udpipe.txt
+    │       └── Iteracion_3
+    │           ├── alphabets
+    │           │   ├── character.json
+    │           │   ├── pos.json
+    │           │   ├── type.json
+    │           │   └── word.json
+    │           ├── config.json
+    │           ├── model.pt
+    │           └── tmp
+    │               ├── gold.txt
+    │               ├── gold_udpipe.txt
+    │               ├── pred.txt
+    │               └── pred_udpipe.txt
+    ├── Tamil-TTB
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    ├── Uyghur-UDT
+    │   ├── Iteracion_1
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   ├── Iteracion_2
+    │   │   ├── alphabets
+    │   │   │   ├── character.json
+    │   │   │   ├── pos.json
+    │   │   │   ├── type.json
+    │   │   │   └── word.json
+    │   │   ├── config.json
+    │   │   ├── model.pt
+    │   │   └── tmp
+    │   │       ├── gold.txt
+    │   │       ├── gold_udpipe.txt
+    │   │       ├── pred.txt
+    │   │       └── pred_udpipe.txt
+    │   └── Iteracion_3
+    │       ├── alphabets
+    │       │   ├── character.json
+    │       │   ├── pos.json
+    │       │   ├── type.json
+    │       │   └── word.json
+    │       ├── config.json
+    │       ├── model.pt
+    │       └── tmp
+    │           ├── gold.txt
+    │           ├── gold_udpipe.txt
+    │           ├── pred.txt
+    │           └── pred_udpipe.txt
+    └── Wolof-WTB
+        ├── Iteracion_1
+        │   ├── alphabets
+        │   │   ├── character.json
+        │   │   ├── pos.json
+        │   │   ├── type.json
+        │   │   └── word.json
+        │   ├── config.json
+        │   ├── model.pt
+        │   └── tmp
+        │       ├── gold.txt
+        │       ├── gold_udpipe.txt
+        │       ├── pred.txt
+        │       └── pred_udpipe.txt
+        ├── Iteracion_2
+        │   ├── alphabets
+        │   │   ├── character.json
+        │   │   ├── pos.json
+        │   │   ├── type.json
+        │   │   └── word.json
+        │   ├── config.json
+        │   ├── model.pt
+        │   └── tmp
+        │       ├── gold.txt
+        │       ├── gold_udpipe.txt
+        │       ├── pred.txt
+        │       └── pred_udpipe.txt
+        └── Iteracion_3
+            ├── alphabets
+            │   ├── character.json
+            │   ├── pos.json
+            │   ├── type.json
+            │   └── word.json
+            ├── config.json
+            ├── model.pt
+            └── tmp
+                ├── gold.txt
+                ├── gold_udpipe.txt
+                ├── pred.txt
+                └── pred_udpipe.txt
+
+479 directories, 1340 files
