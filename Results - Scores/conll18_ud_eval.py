@@ -219,9 +219,9 @@ def load_conllu(file):
                 if word.parent and word.is_functional_deprel:
                     word.parent.functional_children.append(word)
 
-            # Check there is a single root node
-            if len([word for word in ud.words[sentence_start:] if word.parent is None]) != 1:
-                raise UDError("There are multiple roots in a sentence")
+            # Check there is a single root node - Disabled to avoi errors with predicted files by SyntacticPointer Parser
+            #if len([word for word in ud.words[sentence_start:] if word.parent is None]) != 1:
+            #    raise UDError("There are multiple roots in a sentence")
 
             # End the sentence
             ud.sentences[-1].end = index
