@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-
-# TODO: CAMBIAR NOMBRE FICHEROS EN EL CÓDIGO PARA NO PISAR LOS DEL UD
-
-
 source ../venv/bin/activate
 
 # Arabic - PADT

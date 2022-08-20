@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source ./env/bin/activate
+source ./venv/bin/activate
 
 # Belarusian - HSE
 for index in {1..3}; do
