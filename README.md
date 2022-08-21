@@ -13,7 +13,8 @@ all the necessary files. Some of them due to their size and the limitations of t
 
 - Parsers: Contains the parsers used in the paper.
 - Results - Scores: Contains the prediction files and the scripts to calculate the scores in case the evaluation function of the parsers
-  cannot be used because no models are trained or are not available.[^1]
+  cannot be used because no models are trained or are not available.[^1] Also included are PDFs with the results of the evaluation 
+  functionality of the parsers themselves on the models trained with the files predicted by these models.
 - Tools: It contains the tools used to manipulate the files and adapt them to the needs of the parsers used in the paper.
 
 [^1]: Disclaimer: In this case the script `conll18_ud_eval.py` is used and has been adapted to work with the *SyntacticPointer* parser to
@@ -78,11 +79,11 @@ In addition, in the case of *DepToLabel* it is necessary to process them into th
 
 ### Optional 2
 
-For Experiment #2, if you want to replicate the charts and outliers shown in the paper with the `ConllSharedTaskRanking` tool you need to 
+For Experiment #2, if you want to replicate the charts and outliers shown in the paper with the `ConllSharedTaskRanking` tool you need to
 unzip the `10-1000000.zip` file in the same folder as *GitHub* has a file size limit of 100 MB.
 
 This file contains the million sets of size 10 generated for the graphs and tables shown in the paper in order to be able to corroborate the
-results. If you want to create your ohwn, you must delete the file from the folder and be aware that it takes a long time to create.
+results. If you want to create your own, you must delete the file from the folder and be aware that it takes a long time to create.
 
 ## Training and evaluation of the parsers
 
@@ -102,18 +103,18 @@ Once all the paths have been adapted, to train and evaluate the models, first ru
 
 ## Check predicted results
 
-In case no trained models are available, the predicted outputs produced by the trained models can be checked. In the `Results - Scores` 
-directory you will find the scripts for calculating the accuracy percentages. 
+In case no trained models are available, the predicted outputs produced by the trained models can be checked. In the `Results - Scores`
+directory you will find the scripts for calculating the accuracy percentages.
 
-As noted earlier, these scripts use the `conll18_ud_eval.py` command line tool to measure the accuracy of the predictions. The result 
+As noted earlier, these scripts use the `conll18_ud_eval.py` command line tool to measure the accuracy of the predictions. The result
 given by this tool differs in some cases from the exact result produced by the evaluation functionality of the parsers themselves. As can be
-seen in the `test*.sh` scripts of each parser, in the evaluation phase, certain parameters are indicated that cannot be specified to this 
-tool. In addition, the tool fails with some *SyntacticPointer* predictions as *SyntacticPointer* sometimes predicts several root nodes for 
-the same phrase, and in order for the tool to work, this check has been commented out so that it does not throw an error. Therefore, 
+seen in the `test*.sh` scripts of each parser, in the evaluation phase, certain parameters are indicated that cannot be specified to this
+tool. In addition, the tool fails with some *SyntacticPointer* predictions as *SyntacticPointer* sometimes predicts several root nodes for
+the same phrase, and in order for the tool to work, this check has been commented out so that it does not throw an error. Therefore,
 sometimes the score matches and sometimes it gives a slightly higher score. **But for a quick glance it can be used**.
 
-As the models are not uploaded to this repository due to the large number and size of models, the correct results reported from the 
-evaluation functionality of the parsers can be checked in the `_PDF - Parser Scores` folder. These PDFs contain the values reported by the 
+As the models are not uploaded to this repository due to the large number and size of models, the correct results reported from the
+evaluation functionality of the parsers can be checked in the `_PDF - Parser Scores` folder. These PDFs contain the values reported by the
 evaluation functionality of the parsers in the trained models and are reported in the paper.
 
 ## Licensing agreement
@@ -122,21 +123,14 @@ MIT License
 
 Copyright (c) 2022 Iago Alonso Alonso
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to
 the following conditions:
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
