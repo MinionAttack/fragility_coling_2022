@@ -82,7 +82,7 @@ For Experiment #2, if you want to replicate the charts and outliers shown in the
 unzip the `10-1000000.zip` file in the same folder as *GitHub* has a file size limit of 100 MB.
 
 This file contains the million sets of size 10 generated for the graphs and tables shown in the paper in order to be able to corroborate the
-results. If you want to create your own, you must delete the file from the folder and be aware that it takes a long time to create.
+results. If you want to create your ohwn, you must delete the file from the folder and be aware that it takes a long time to create.
 
 ## Training and evaluation of the parsers
 
@@ -105,12 +105,12 @@ Once all the paths have been adapted, to train and evaluate the models, first ru
 In case no trained models are available, the predicted outputs produced by the trained models can be checked. In the `Results - Scores` 
 directory you will find the scripts for calculating the accuracy percentages. 
 
-As mentioned above, these scripts use the `conll18_ud_eval.py` command line tool to measure the accuracy of the predictions. The result 
+As noted earlier, these scripts use the `conll18_ud_eval.py` command line tool to measure the accuracy of the predictions. The result 
 given by this tool differs in some cases from the exact result produced by the evaluation functionality of the parsers themselves. As can be
 seen in the `test*.sh` scripts of each parser, in the evaluation phase, certain parameters are indicated that cannot be specified to this 
-tool. In addition, the tool fails with some *SyntacticPointer* predictions as it predicts several root nodes for the same phrase, and in order
-for the tool to work, this check has been commented out so that it does not throw an error. Therefore, sometimes the score matches and 
-sometimes it gives a slightly higher score. **But for a quick glance it can be used**.
+tool. In addition, the tool fails with some *SyntacticPointer* predictions as *SyntacticPointer* sometimes predicts several root nodes for 
+the same phrase, and in order for the tool to work, this check has been commented out so that it does not throw an error. Therefore, 
+sometimes the score matches and sometimes it gives a slightly higher score. **But for a quick glance it can be used**.
 
 As the models are not uploaded to this repository due to the large number and size of models, the correct results reported from the 
 evaluation functionality of the parsers can be checked in the `_PDF - Parser Scores` folder. These PDFs contain the values reported by the 
