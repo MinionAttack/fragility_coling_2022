@@ -21,6 +21,15 @@ all the necessary files. Some of them due to their size and the limitations of t
 avoid throwing an error if a sentence has multiple *root* nodes. The values in the paper are obtained from the output of the evaluation
 scripts of each parser using its own evaluation function with corresponding arguments, so the scores may vary slightly.
 
+## Modifications to the parsers' code
+
+In some parsers, minor modifications have been made to adapt their behaviour to the required needs.
+
+- **SuPar**: When loading the embeddings file it was limited to a maximum of *200.000* elements. Otherwise an error would occur, because due 
+  to the size of the fastText embeddings the computer where the experiments were performed did not have enough memory. This number was 
+  chosen because it is the same number used by *SyntacticPointer* when loading the embeddings files.
+- **SyntacticPointer**: The code has been modified to use the `UPOS` column instead of the `CPOS` column.
+
 ## Installation
 
 When installing tools and parsers, it is strongly recommended to create a virtual environment for each of them to avoid conflicts with
@@ -116,21 +125,3 @@ sometimes the score matches and sometimes it gives a slightly higher score. **Bu
 As the models are not uploaded to this repository due to the large number and size of models, the correct results reported from the
 evaluation functionality of the parsers can be checked in the `_PDF - Parser Scores` folder. These PDFs contain the values reported by the
 evaluation functionality of the parsers in the trained models and are reported in the paper.
-
-## Licensing agreement
-
-MIT License
-
-Copyright (c) 2022 Iago Alonso Alonso
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
