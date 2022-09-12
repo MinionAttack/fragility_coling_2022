@@ -3,10 +3,9 @@
 
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
-from typing import Any, List
+from typing import Any
 
-from modules import columns_generator
-from modules import combiner, splitter, converter, cleaner, filler, embeddings_generator
+from modules import columns_generator, combiner, splitter, converter, cleaner, filler, embeddings_generator, remove_pos
 
 
 def main() -> None:
